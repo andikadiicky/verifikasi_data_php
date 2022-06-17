@@ -1,0 +1,61 @@
+$(document).ready(function () {
+	app.verifikasiDataAwal.init();
+});
+
+$(document).on('select2:open', () => {
+	document.querySelector('.select2-search__field').focus();
+	$('.select2-search__field').css("text-transform", "uppercase");
+});
+
+app.verifikasiDataAwal = {
+	controller: 'c_detail_verifikasi_data/',
+	// api: '',
+	elm: {},
+	message_hint_2: "Ketik untuk melakukan pencarian minimal 2 karakter",
+
+	init: function () {
+		var file = this;
+		var tbl_vertel = file.tableVertel;
+
+		//Responsive DataTable
+		$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+			$($.fn.dataTable.tables(true)).DataTable()
+				.columns.adjust()
+				.responsive.recalc();
+		});
+
+	},
+
+	tableVertel: $('#tbl-verifikasi-telepon').DataTable({
+		"destroy": true,
+		"paging": false,
+		"lengthChange": false,
+		"searching": false,
+		"ordering": true,
+		"info": false,
+		"autoWidth": false,
+	}),
+
+}
+
+$('#slc-merk-model').select2({
+	theme: 'material',
+	placeholder: '',
+	language: 'id',
+	allowClear: true,
+	// data: dummy
+});
+$('#slc-tenor').select2({
+	theme: 'material',
+	placeholder: '',
+	language: 'id',
+	allowClear: true,
+	// data: dummy
+});
+$('#slc-angsuran').select2({
+	theme: 'material',
+	placeholder: '',
+	language: 'id',
+	allowClear: true,
+	// data: dummy
+});
