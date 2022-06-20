@@ -1,7 +1,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-12" id="card-form">
-            <div class="card-header">
+            <div class="card-body">
                 <div class="use-bottom-border">
                     <h4>
                         <span>CUSTOMER PERORANGAN - IDENTITAS</span>
@@ -245,9 +245,9 @@
                 <div class="div-info-alamat">
                     <div class="col-lg-12" style="margin-top:10px">
                         <div class="use-bottom-border">
-                            <h4>
+                            <h5>
                                 <span>INFORMASI ALAMAT</span>
-                            </h4>
+                            </h5>
                         </div>
                     </div>
                     <div class="col-md-12" style="margin-top:10px">
@@ -294,9 +294,9 @@
                 <div class="div-emergency-contact">
                     <div class="col-lg-12" style="margin-top:10px">
                         <div class="use-bottom-border">
-                            <h4>
+                            <h5>
                                 <span>EMERGENCY CONTACT</span>
-                            </h4>
+                            </h5>
                         </div>
                     </div>
                     <div class="col-md-12" style="margin-top:10px">
@@ -327,9 +327,9 @@
                 <div class="div-informasi-bank">
                     <div class="col-lg-12" style="margin-top:10px">
                         <div class="use-bottom-border">
-                            <h4>
+                            <h5>
                                 <span>INFORMASI BANK</span>
-                            </h4>
+                            </h5>
                         </div>
                     </div>
                     <div class="col-md-12" style="margin-top:10px">
@@ -360,9 +360,9 @@
                 <div class="div-informasi-kartukredit">
                     <div class="col-lg-12" style="margin-top:10px">
                         <div class="use-bottom-border">
-                            <h4>
+                            <h5>
                                 <span>INFORMASI KARTU KREDIT</span>
-                            </h4>
+                            </h5>
                         </div>
                     </div>
                     <div class="col-md-12" style="margin-top:10px">

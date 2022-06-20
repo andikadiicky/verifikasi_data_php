@@ -28,7 +28,7 @@
 	padding: 7px 0;
 	transition: border-color 0.2s;
 	text-transform: uppercase;
-	padding-left: 2%;
+	padding-left: 7px;
 }
 
 .form__label {
@@ -84,7 +84,7 @@
 .select2-container--material .select2-selection--single .select2-selection__rendered {
 	color: #444;
 	line-height: 28px;
-	padding-left: 2%;
+	padding-left: 7px;
 }
 
 .select2-container--material .select2-selection--single .select2-selection__clear {

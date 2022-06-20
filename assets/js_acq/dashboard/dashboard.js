@@ -9,7 +9,7 @@ $(document).on('select2:open', () => {
 
 app.dashboard = {
 	controller: 'c_dashboard/',
-	// api: 'c_dashboard_api/',
+	// api: '',
 	elm: {},
 	message_hint_2: "Ketik untuk melakukan pencarian minimal 2 karakter",
 
@@ -42,14 +42,6 @@ app.dashboard = {
 	}),
 
 }
-
-$('#slc-tipe-nasabah').select2({
-	theme: 'material',
-	placeholder: 'PILIH TIPE NASABAH',
-	language: 'id',
-	allowClear: true,
-	// data: dummy
-});
 
 $('#slc-penerimaan-doc').select2({
 	theme: 'material',

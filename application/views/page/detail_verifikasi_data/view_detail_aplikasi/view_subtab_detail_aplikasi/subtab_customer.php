@@ -10,8 +10,7 @@
             <div class="form-group">
                 <div class="form__group field">
                     <select class="form-control select2bs4" style="width: 100%;" id="slc-tipe-nasabah">
-                        <option value="PER">PER - PERSONAL</option>
-                        <option value="COM">COM - COMPANY</option>
+                        <option></option>
                     </select>
                     <label for="slc-tipe-nasabah" class="form__label">TIPE NASABAH <span class="mandatory"> *</span></label>
                 </div>
@@ -38,7 +37,7 @@
     </div>
 </div>
 
-<div id="subtab-cust-personal">
+<div id="subtab-cust-personal" style="display: none;">
     <ul class="nav nav-tabs col-md-12" role="tablist">
         <li class="nav-item" role="presentation">
             <a class="nav-link active" id="tab-identitas" data-toggle="tab" href="#identitas" role="tab" aria-controls="identitas">Identitas</a>
@@ -55,10 +54,10 @@
             <?php $this->load->view('/page/detail_verifikasi_data/view_detail_aplikasi/view_subtab_detail_aplikasi/view_subtab_customer/personal/subtab_identitas_personal'); ?>
         </div>
         <div class="tab-pane" id="pekerjaan" role="tabpanel" aria-labelledby="pekerjaan">
-            <h2>Pekerjaan is Under Development</h2>
+            <?php $this->load->view('/page/detail_verifikasi_data/view_detail_aplikasi/view_subtab_detail_aplikasi/view_subtab_customer/personal/subtab_pekerjaan_personal'); ?>
         </div>
         <div class="tab-pane" id="pendapatan" role="tabpanel" aria-labelledby="pendapatan">
-            <h2>Pendapatan is Under Development</h2>
+            <?php $this->load->view('/page/detail_verifikasi_data/view_detail_aplikasi/view_subtab_detail_aplikasi/view_subtab_customer/personal/subtab_pendapatan_personal'); ?>
         </div>
     </div>
 </div>

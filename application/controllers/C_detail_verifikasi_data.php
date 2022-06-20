@@ -13,7 +13,10 @@ class C_detail_verifikasi_data extends CI_Controller {
 		$session_data['menu'] = [
             'dashboard/dashboard',
 			'detail_verifikasi_data/detail_aplikasi',
+			'detail_verifikasi_data/customer',
 			'detail_verifikasi_data/identitas_personal',
+			'detail_verifikasi_data/pekerjaan',
+			'detail_verifikasi_data/pendapatan',
 			'detail_verifikasi_data/doc_received',
 			'detail_verifikasi_data/verif_data_awal',
 			'detail_verifikasi_data/verif_telepon',
