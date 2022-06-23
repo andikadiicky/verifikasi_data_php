@@ -25,7 +25,7 @@ app.dashboard = {
 		});
 
 		$("#tbl-contract-list tbody").on('click', '#dtl-verifikasi-data', function () {
-			console.log('trigger button table personal');
+			// console.log('trigger button table personal');
 			window.location.href = 'C_detail_verifikasi_data';
 		});
 

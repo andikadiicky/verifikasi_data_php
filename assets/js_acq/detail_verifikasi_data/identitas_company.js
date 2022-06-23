@@ -1,5 +1,5 @@
 $(document).ready(function () {
-	app.pendapatan.init();
+	app.identitasCompany.init();
 });
 
 $(document).on('select2:open', () => {
@@ -7,9 +7,9 @@ $(document).on('select2:open', () => {
 	$('.select2-search__field').css("text-transform", "uppercase");
 });
 
-app.pendapatan = {
+app.identitasCompany = {
 	controller: 'c_detail_verifikasi_data/',
-	// api: '/',
+	// api: '',
 	elm: {},
 	message_hint_2: "Ketik untuk melakukan pencarian minimal 2 karakter",
 
@@ -23,59 +23,68 @@ app.pendapatan = {
 				.responsive.recalc();
 		});
 
-        $('#slc-pekerjaan-nasabah').on('change', function () {
-            if ($(this).val() == '01'){
-                // console.log('coba karyawan');
-                $('#pendapatan-karyawan').prop('hidden', false);
-                $('#pendapatan-wiraswasta').prop('hidden', true);
-            } else {
-                // console.log('coba wiraswasta');
-                $('#pendapatan-karyawan').prop('hidden', true);
-                $('#pendapatan-wiraswasta').prop('hidden', false);
-            }
-        });
-
 	},
+
 
 }
 
-$('#slc-sumber-pendapatan-karyawan').select2({
+$('#slc-jenis-perusahaan').select2({
 	theme: 'material',
 	placeholder: 'PILIH',
 	language: 'id',
 	allowClear: true,
 	// data: dummy
 });
-$('#slc-sumber-pendapatan-lain-karyawan').select2({
+$('#slc-status-penanaman-modal').select2({
 	theme: 'material',
 	placeholder: 'PILIH',
 	language: 'id',
 	allowClear: true,
 	// data: dummy
 });
-$('#slc-sumber-pendapatan-pasangan-karyawan').select2({
+$('#slc-status-kepemilikan-company').select2({
 	theme: 'material',
 	placeholder: 'PILIH',
 	language: 'id',
 	allowClear: true,
 	// data: dummy
 });
-
-$('#slc-sumber-pendapatan-wira').select2({
+$('#slc-kepemilikan-npwp-company').select2({
 	theme: 'material',
 	placeholder: 'PILIH',
 	language: 'id',
 	allowClear: true,
 	// data: dummy
 });
-$('#slc-sumber-pendapatan-lain-wira').select2({
+$('#slc-sektor-ekonomi-company').select2({
 	theme: 'material',
 	placeholder: 'PILIH',
 	language: 'id',
 	allowClear: true,
 	// data: dummy
 });
-$('#slc-sumber-pendapatan-pasangan-wira').select2({
+$('#slc-status-lokasi-company').select2({
+	theme: 'material',
+	placeholder: 'PILIH',
+	language: 'id',
+	allowClear: true,
+	// data: dummy
+});
+$('#slc-lokasi-usaha-company').select2({
+	theme: 'material',
+	placeholder: 'PILIH',
+	language: 'id',
+	allowClear: true,
+	// data: dummy
+});
+$('#slc-kepemilikan-rek-company').select2({
+	theme: 'material',
+	placeholder: 'PILIH',
+	language: 'id',
+	allowClear: true,
+	// data: dummy
+});
+$('#slc-reason-watchlist-company').select2({
 	theme: 'material',
 	placeholder: 'PILIH',
 	language: 'id',

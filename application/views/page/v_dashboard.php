@@ -114,7 +114,7 @@
           </div>
 
           <div class="col-md-12">
-            <table id="tbl-contract-list" class="table table-bordered table-hover dt-responsive display center-td center-td">
+            <table id="tbl-contract-list" class="table table-bordered table-hover dt-responsive display center-td">
               <thead>
                 <tr>
                   <th>Nomor Kontrak</th>

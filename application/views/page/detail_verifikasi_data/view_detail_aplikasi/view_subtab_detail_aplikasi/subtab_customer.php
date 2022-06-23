@@ -79,16 +79,16 @@
     </ul>
     <div class="tab-content">
         <div class="tab-pane active" id="identitas-comp" role="tabpanel" aria-labelledby="identitas-comp">
-            <h2>identitas-comp is Under Development</h2>
+            <?php $this->load->view('/page/detail_verifikasi_data/view_detail_aplikasi/view_subtab_detail_aplikasi/view_subtab_customer/company/subtab_identitas_company'); ?>
         </div>
         <div class="tab-pane" id="pendapatan-comp" role="tabpanel" aria-labelledby="pendapatan-comp">
-            <h2>pendapatan-comp is Under Development</h2>
+            <?php $this->load->view('/page/detail_verifikasi_data/view_detail_aplikasi/view_subtab_detail_aplikasi/view_subtab_customer/company/subtab_pendapatan_company'); ?>
         </div>
         <div class="tab-pane" id="pic-comp" role="tabpanel" aria-labelledby="pic-comp">
-            <h2>pic-comp is Under Development</h2>
+            <?php $this->load->view('/page/detail_verifikasi_data/view_detail_aplikasi/view_subtab_detail_aplikasi/view_subtab_customer/company/subtab_pic_management_company'); ?>
         </div>
         <div class="tab-pane" id="pemegang-saham-comp" role="tabpanel" aria-labelledby="pemegang-saham-comp">
-            <h2>pemegang-saham-comp is Under Development</h2>
+            <?php $this->load->view('/page/detail_verifikasi_data/view_detail_aplikasi/view_subtab_detail_aplikasi/view_subtab_customer/company/subtab_pemegang_saham_company'); ?>
         </div>
     </div>
 </div>
