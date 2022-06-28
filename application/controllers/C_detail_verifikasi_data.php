@@ -20,6 +20,8 @@ class C_detail_verifikasi_data extends CI_Controller {
 			'detail_verifikasi_data/pendapatan',
 			'detail_verifikasi_data/pendapatan_company',
 			'detail_verifikasi_data/pic_management',
+			'detail_verifikasi_data/pemegang_saham',
+			'detail_verifikasi_data/aplikasi',
 			'detail_verifikasi_data/doc_received',
 			'detail_verifikasi_data/verif_data_awal',
 			'detail_verifikasi_data/verif_telepon',

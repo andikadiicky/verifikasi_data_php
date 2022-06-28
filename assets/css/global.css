@@ -677,6 +677,8 @@ h5 span {
 hr {
 	border: none;
 	border-bottom: 3px solid #ced4da;
+	margin-top: unset;
+	margin-bottom: unset;
 }
 
 .use-bottom-border h4 {

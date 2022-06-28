@@ -1,42 +1,46 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-6" id="card-form">
-            <div class="form-group">
-                <div class="form__group field">
-                    <input type="input" class="form__field" placeholder="OBLIGOR ID" id="inp-obligor-id" disabled value="1234567891027" />
-                    <label for="inp-obligor-id" class="form__label">OBLIGOR ID</label>
-                </div>
-            </div>
-            <div class="form-group">
-                <div class="form__group field">
-                    <select class="form-control select2bs4" style="width: 100%;" id="slc-tipe-nasabah">
-                        <option></option>
-                    </select>
-                    <label for="slc-tipe-nasabah" class="form__label">TIPE NASABAH <span class="mandatory"> *</span></label>
-                </div>
-            </div>
-            <div class="form-group">
-                <div class="form__group field">
-                    <input type="input" class="form__field" placeholder="HASIL SCREENING" id="inp-hasil-screening" disabled />
-                    <label for="inp-hasil-screening" class="form__label">HASIL SCREENING</label>
-                </div>
-            </div>
-            <div class="form-group">
-                <div class="form__group field">
-                    <input type="input" class="form__field" placeholder="TANGGAL ORDER" id="inp-tgl-order" disabled />
-                    <label for="inp-tgl-order" class="form__label">TANGGAL ORDER</label>
-                </div>
-            </div>
-            <div class="form-group">
-                <div class="form__group field">
-                    <input type="input" class="form__field" placeholder="NO ORDER" id="inp-no-order" disabled />
-                    <label for="inp-no-order" class="form__label">NO ORDER</label>
+            <div class="card">
+                <div class="card-header">
+                    <div class="form-group">
+                        <div class="form__group field">
+                            <input type="input" class="form__field" placeholder="OBLIGOR ID" id="inp-obligor-id" disabled value="1234567891027" />
+                            <label for="inp-obligor-id" class="form__label">OBLIGOR ID</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form__group field">
+                            <select class="form-control select2bs4" style="width: 100%;" id="slc-tipe-nasabah">
+                                <option></option>
+                            </select>
+                            <label for="slc-tipe-nasabah" class="form__label">TIPE NASABAH <span class="mandatory"> *</span></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form__group field">
+                            <input type="input" class="form__field" placeholder="HASIL SCREENING" id="inp-hasil-screening" disabled />
+                            <label for="inp-hasil-screening" class="form__label">HASIL SCREENING</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form__group field">
+                            <input type="input" class="form__field" placeholder="TANGGAL ORDER" id="inp-tgl-order" disabled />
+                            <label for="inp-tgl-order" class="form__label">TANGGAL ORDER</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form__group field">
+                            <input type="input" class="form__field" placeholder="NO ORDER" id="inp-no-order" disabled />
+                            <label for="inp-no-order" class="form__label">NO ORDER</label>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
+<hr>
 <div id="subtab-cust-personal" style="display: none;">
     <ul class="nav nav-tabs col-md-12" role="tablist">
         <li class="nav-item" role="presentation">
