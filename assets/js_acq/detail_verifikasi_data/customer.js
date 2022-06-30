@@ -33,12 +33,18 @@ $("#slc-tipe-nasabah").on('change', function () {
 	if (x == 'PER') {
 		$('#subtab-cust-personal').show();
 		$('#subtab-cust-company').hide();
+		$('#div-penjamin-pribadi').prop('hidden', false);
+		$('#div-penjamin-company').prop('hidden', true);
 	} else if (x == 'COM') {
 		$('#subtab-cust-personal').hide();
 		$('#subtab-cust-company').show();
+		$('#div-penjamin-pribadi').prop('hidden', true);
+		$('#div-penjamin-company').prop('hidden', false);
 	} else if (x == '') {
 		$('#subtab-cust-personal').hide();
 		$('#subtab-cust-company').hide();
+		$('#div-penjamin-pribadi').prop('hidden', true);
+		$('#div-penjamin-company').prop('hidden', true);
 	}
 });
 

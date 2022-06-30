@@ -10,7 +10,7 @@
                 <div class="col-lg-12">
                     <div class="use-bottom-border">
                         <h5>
-                            <span>PENGURUS & PEMEGANG SAHAM PRIBADI</span>
+                            <span>Pengurus & Pemegang Saham Pribadi</span>
                         </h5>
                     </div>
                 </div>
@@ -49,7 +49,7 @@
                 <div class="col-lg-12">
                     <div class="use-bottom-border">
                         <h5>
-                            <span>PEMEGANG SAHAM PERUSAHAAN</span>
+                            <span>Pemegang Saham Perusahaan</span>
                         </h5>
                     </div>
                 </div>
@@ -84,7 +84,7 @@
                 <div class="col-lg-12">
                     <div class="use-bottom-border">
                         <h5>
-                            <span>PEMEGANG SAHAM MASYARAKAT/INSTANSI PUBLIK/LAINNYA</span>
+                            <span>Pemegang Saham Masyarakat/Instansi Publik/Lainnya</span>
                         </h5>
                     </div>
                 </div>
@@ -114,4 +114,7 @@
             </div>
         </div>
     </div>
+    <button type="button" class="btn btn-danger btn-circle btn-lg btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 </div>

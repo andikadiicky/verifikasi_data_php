@@ -239,4 +239,7 @@
             </div>
         </div>
     </div>
+    <button type="button" class="btn btn-danger btn-circle btn-lg btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 </div>

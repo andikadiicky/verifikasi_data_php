@@ -40,7 +40,7 @@
                     </div>
                     <div class="form-group">
                         <div class="form__group field">
-                            <select class="form-control select2bs4" style="width: 100%;" id="slc-tipe-pembiayaan" disabled>
+                            <select class="form-control select2bs4" style="width: 100%;" id="slc-tipe-pembiayaan">
                                 <option></option>
                             </select>
                             <label for="slc-tipe-pembiayaan" class="form__label">TIPE PEMBIAYAAN <span class="mandatory"> *</span></label>
@@ -79,10 +79,10 @@
                     <div class="form-group">
                         <div class="form__group field">
                             <label class="radio-inline">
-                                <input type="radio" name="radioObjekPembiayaan" value="" id="radio-kendaraan" disabled> KENDARAAN
+                                <input type="radio" name="radioObjekPembiayaan" value="" id="radio-kendaraan" disabled> Kendaraan
                             </label>
                             <label class="radio-inline" style="margin-left: 10px;">
-                                <input type="radio" name="radioObjekPembiayaan" value="" id="radio-dana" disabled> DANA
+                                <input type="radio" name="radioObjekPembiayaan" value="" id="radio-dana" disabled> Dana
                             </label>
                             <label class="form__label">OBJEK PEMBIAYAAN <span class="mandatory"> *</span></label>
                         </div>
@@ -176,10 +176,10 @@
                     <div class="form-group">
                         <div class="form__group field">
                             <label class="radio-inline">
-                                <input type="radio" name="radioMultiunit" value="" id="radio-multiunit-ya" disabled> YA
+                                <input type="radio" name="radioMultiunit" value="" id="radio-multiunit-ya" disabled> Ya
                             </label>
                             <label class="radio-inline" style="margin-left: 10px;">
-                                <input type="radio" name="radioMultiunit" value="" id="radio-multiunit-tidak" disabled> TIDAK
+                                <input type="radio" name="radioMultiunit" value="" id="radio-multiunit-tidak" disabled> Tidak
                             </label>
                             <label class="form__label">MULTIUNIT</label>
                         </div>
@@ -213,7 +213,7 @@
                     <div class="form-group">
                         <div class="form__group field">
                             <label class="checkbox-inline">
-                                <input type="checkbox" name="checkApplyCCMandiri" value="" id="check-cc-mandiri" disabled> BERSEDIA
+                                <input type="checkbox" name="checkApplyCCMandiri" value="" id="check-cc-mandiri" disabled> Bersedia
                             </label>
                             <label class="form__label">APPLY CREDIT CARD BANK MANDIRI</label>
                         </div>
@@ -229,7 +229,7 @@
 
                     <div class="use-bottom-border" style="margin-top: 5px;">
                         <H5>
-                            <span>AUTO DEBET</span>
+                            <span>Auto Debet</span>
                         </H5>
                     </div>
                     <div class="form-group">
@@ -255,7 +255,7 @@
 
                     <div class="use-bottom-border" style="margin-top: 5px;">
                         <H5>
-                            <span>PENCAIRAN LANGSUNG</span>
+                            <span>Pencairan Langsung</span>
                         </H5>
                     </div>
                     <div class="form-group">
@@ -278,9 +278,9 @@
                     </div>
 
                     <div class="use-bottom-border" style="margin-top: 5px;">
-                        <H5>
-                            <span>REFINANCING</span>
-                        </H5>
+                        <h5>
+                            <span>Refinancing</span>
+                        </h5>
                     </div>
                     <div class="form-group">
                         <div class="form__group field">
@@ -289,12 +289,117 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="col-md-6" id="form-hidden-beneficial-owner" hidden>
+                    <div class="form-group">
+                        <div class="form__group field">
+                            <input type="text" class="form__field inp-" id="inp-">
+                            <label for="inp-" class="form__label">NAMA LENGKAP</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form__group field">
+                            <input type="text" class="form__field inp-" id="inp-">
+                            <label for="inp-" class="form__label">JENIS-IDENTITAS</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form__group field">
+                            <input type="text" class="form__field inp-" id="inp-">
+                            <label for="inp-" class="form__label">NO IDENTITAS</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form__group field">
+                            <input type="text" class="form__field inp-" id="inp-">
+                            <label for="inp-" class="form__label">TEMPAT LAHIR</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form__group field">
+                            <input type="text" class="form__field inp-" id="inp-">
+                            <label for="inp-" class="form__label">TANGGAL LAHIR</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form__group field">
+                            <input type="text" class="form__field inp-" id="inp-">
+                            <label for="inp-" class="form__label">JENIS-KELAMIN</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form__group field">
+                            <input type="text" class="form__field inp-" id="inp-">
+                            <label for="inp-" class="form__label">STATUS PERNIKAHAN</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form__group field">
+                            <input type="text" class="form__field inp-" id="inp-">
+                            <label for="inp-" class="form__label">NO HP 1</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form__group field">
+                            <input type="text" class="form__field inp-" id="inp-">
+                            <label for="inp-" class="form__label">ALAMAT KTP</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form__group field">
+                            <input type="text" class="form__field inp-" id="inp-">
+                            <label for="inp-" class="form__label">RT</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form__group field">
+                            <input type="text" class="form__field inp-" id="inp-">
+                            <label for="inp-" class="form__label">RW</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form__group field">
+                            <input type="text" class="form__field inp-" id="inp-">
+                            <label for="inp-" class="form__label">KODE POS</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form__group field">
+                            <input type="text" class="form__field inp-" id="inp-">
+                            <label for="inp-" class="form__label">KELURAHAN</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form__group field">
+                            <input type="text" class="form__field inp-" id="inp-">
+                            <label for="inp-" class="form__label">KECAMATAN</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form__group field">
+                            <input type="text" class="form__field inp-" id="inp-">
+                            <label for="inp-" class="form__label">KAB/KOTA</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form__group field">
+                            <input type="text" class="form__field inp-" id="inp-">
+                            <label for="inp-" class="form__label">PROVINSI</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form__group field">
+                            <input type="text" class="form__field inp-" id="inp-">
+                            <label for="inp-" class="form__label">NO TELEPHONE</label>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div id="info-external-sales">
                 <div class="use-bottom-border">
                     <h5>
-                        <span>INFORMASI EXTERNAL SALES</span>
+                        <span>Informasi External Sales</span>
                     </h5>
                 </div>
                 <div class="col-md-12">
@@ -328,7 +433,7 @@
             <div id="info-Internal-sales">
                 <div class="use-bottom-border">
                     <h5>
-                        <span>INFORMASI INTERNAL SALES</span>
+                        <span>Informasi Internal Sales</span>
                     </h5>
                 </div>
                 <div class="col-md-12">
@@ -362,4 +467,7 @@
             </div>
         </div>
     </div>
+    <button type="button" class="btn btn-danger btn-circle btn-lg btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 </div>

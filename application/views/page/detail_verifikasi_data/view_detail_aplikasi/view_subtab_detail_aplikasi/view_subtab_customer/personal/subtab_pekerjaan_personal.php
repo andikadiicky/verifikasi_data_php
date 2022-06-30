@@ -39,7 +39,7 @@
                 <div class="col-md-6">
                     <div class="use-bottom-border">
                         <h5>
-                            <span>PEKERJAAN NASABAH</span>
+                            <span>Pekerjaan Nasabah</span>
                         </h5>
                     </div>
                     <div class="form-group">
@@ -184,7 +184,7 @@
                 <div class="col-md-6">
                     <div class="use-bottom-border">
                         <h5>
-                            <span>PEKERJAAN PASANGAN</span>
+                            <span>Pekerjaan Pasangan</span>
                         </h5>
                     </div>
                     <div class="form-group">
@@ -300,4 +300,7 @@
             </div>
         </div>
     </div>
+    <button type="button" class="btn btn-danger btn-circle btn-lg btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 </div>

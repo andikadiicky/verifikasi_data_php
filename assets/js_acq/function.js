@@ -1,5 +1,24 @@
 var base_url = $('#base_url').val();
 
+$(document).ready(function () {
+	// When the user scrolls down 50px from the top of the document, show the button
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 50) {
+			$('.btn-back-to-top').fadeIn();
+		} else {
+			$('.btn-back-to-top').fadeOut();
+		}
+	});
+
+	// When the user clicks on the button, scroll to the top of the document
+	$('.btn-back-to-top').click(function () {
+		$('body,html').animate({
+			scrollTop: 0
+		}, 400);
+		return false;
+	});
+});
+
 //Date Range picker
 $(function () {
 	$('.tanggal').datetimepicker({

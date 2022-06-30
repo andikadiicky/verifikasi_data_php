@@ -109,7 +109,7 @@
                     </div>
                     <div class="form-group">
                         <div class="form__group field">
-                            <select class="form-control select2bs4" style="width: 100%;" id="slc-kepemilikan-rek-company">
+                            <select class="form-control select2bs4" style="width: 100%;" id="slc-kepemilikan-rek-company" disabled>
                                 <option></option>
                             </select>
                             <label for="slc-kepemilikan-rek-company" class="form__label">KEPEMILIKAN REKENING</label>
@@ -138,7 +138,7 @@
                     </div>
                     <div class="form-group">
                         <div class="form__group field">
-                            <input id="inp-tgl-ijin-usaha" type="text" class="form__field datetimepicker-input tanggal" data-toggle="datetimepicker">
+                            <input id="inp-tgl-ijin-usaha" type="text" class="form__field datetimepicker-input tanggal" data-toggle="datetimepicker" disabled>
                             <label for="inp-tgl-ijin-usaha" class="form__label"><i class="fa fa-calendar"></i> TANGGAL IJIN USAHA/SIUP DITERBITKAN <span class="mandatory"> *</span></label>
                         </div>
                     </div>
@@ -150,7 +150,7 @@
                     </div>
                     <div class="form-group">
                         <div class="form__group field">
-                            <input id="inp-tgl-terbit-nib" type="text" class="form__field datetimepicker-input tanggal" data-toggle="datetimepicker">
+                            <input id="inp-tgl-terbit-nib" type="text" class="form__field datetimepicker-input tanggal" data-toggle="datetimepicker" disabled>
                             <label for="inp-tgl-terbit-nib" class="form__label"><i class="fa fa-calendar"></i> TANGGAL NIB/TDP DITERBITKAN <span class="mandatory"> *</span></label>
                         </div>
                     </div>
@@ -168,7 +168,7 @@
                     </div>
                     <div class="form-group">
                         <div class="form__group field">
-                            <input type="text" class="form__field inp-alphabetical" id="inp-tempat-pendirian" placeholder="TEMPAT PENDIRIAN" maxlength="50">
+                            <input type="text" class="form__field inp-alphabetical" id="inp-tempat-pendirian" placeholder="TEMPAT PENDIRIAN" maxlength="50" disabled>
                             <label for="inp-tempat-pendirian" class="form__label">TEMPAT PENDIRIAN</label>
                         </div>
                     </div>
@@ -199,10 +199,10 @@
                     <div class="form-group">
                         <div class="form__group field">
                             <label class="radio-inline">
-                                <input type="radio" name="pilihWatchlistComp" value="" id="radio-watchlist-comp-ya" disabled> YA
+                                <input type="radio" name="pilihWatchlistComp" value="" id="radio-watchlist-comp-ya" disabled> Ya
                             </label>
                             <label class="radio-inline" style="margin-left: 10px;">
-                                <input type="radio" name="pilihWatchlistComp" value="" id="radio-watchlist-comp-tidak" disabled> TIDAK
+                                <input type="radio" name="pilihWatchlistComp" value="" id="radio-watchlist-comp-tidak" disabled> Tidak
                             </label>
                             <label class="form__label">WATCHLIST?</label>
                         </div>
@@ -225,4 +225,7 @@
             </div>
         </div>
     </div>
+    <button type="button" class="btn btn-danger btn-circle btn-lg btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 </div>

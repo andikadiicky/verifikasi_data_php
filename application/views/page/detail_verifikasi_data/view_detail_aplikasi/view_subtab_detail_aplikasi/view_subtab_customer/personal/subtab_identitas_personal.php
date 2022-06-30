@@ -140,10 +140,10 @@
                     <div class="form-group">
                         <div class="form__group field">
                             <label class="radio-inline">
-                                <input type="radio" name="perjanjianPisahHarta" value="" id="radio-pisah-ya" disabled> YA
+                                <input type="radio" name="perjanjianPisahHarta" value="" id="radio-pisah-ya" disabled> Ya
                             </label>
                             <label class="radio-inline" style="margin-left: 10px;">
-                                <input type="radio" name="perjanjianPisahHarta" value="" id="radio-pisah-tidak" disabled> TIDAK
+                                <input type="radio" name="perjanjianPisahHarta" value="" id="radio-pisah-tidak" disabled> Tidak
                             </label>
                             <label for="slc-tipe-pembiayaan" class="form__label">ADA/TIDAK PERJANJIAN PISAH HARTA <span class="mandatory"> *</span></label>
                         </div>
@@ -224,10 +224,10 @@
                     <div class="form-group">
                         <div class="form__group field">
                             <label class="radio-inline">
-                                <input type="radio" name="pilihWatchlist" value="" id="radio-watchlist-ya" disabled> YA
+                                <input type="radio" name="pilihWatchlist" value="" id="radio-watchlist-ya" disabled> Ya
                             </label>
                             <label class="radio-inline" style="margin-left: 10px;">
-                                <input type="radio" name="pilihWatchlist" value="" id="radio-watchlist-tidak" disabled> TIDAK
+                                <input type="radio" name="pilihWatchlist" value="" id="radio-watchlist-tidak" disabled> Tidak
                             </label>
                             <label class="form__label">WATCHLIST? <span class="mandatory"> *</span></label>
                         </div>
@@ -253,7 +253,7 @@
                 <div class="col-lg-12">
                     <div class="use-bottom-border">
                         <h5>
-                            <span>INFORMASI ALAMAT</span>
+                            <span>Informasi Alamat</span>
                         </h5>
                     </div>
                 </div>
@@ -301,7 +301,7 @@
                 <div class="col-lg-12">
                     <div class="use-bottom-border">
                         <h5>
-                            <span>EMERGENCY CONTACT</span>
+                            <span>Emergency Contact</span>
                         </h5>
                     </div>
                 </div>
@@ -334,7 +334,7 @@
                 <div class="col-lg-12">
                     <div class="use-bottom-border">
                         <h5>
-                            <span>INFORMASI BANK</span>
+                            <span>Informasi Bank</span>
                         </h5>
                     </div>
                 </div>
@@ -367,7 +367,7 @@
                 <div class="col-lg-12">
                     <div class="use-bottom-border">
                         <h5>
-                            <span>INFORMASI KARTU KREDIT</span>
+                            <span>Informasi Kartu Kredit</span>
                         </h5>
                     </div>
                 </div>
@@ -400,4 +400,7 @@
 
         </div>
     </div>
+    <button type="button" class="btn btn-danger btn-circle btn-lg btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 </div>

@@ -74,7 +74,13 @@ $('#slc-tipe-pembiayaan').select2({
 	placeholder: 'PILIH',
 	language: 'id',
 	allowClear: true,
-	// data: dummy
+	data: [{
+		id: '01',
+		text: 'KONVENSIONAL'
+	}, {
+		id: '02',
+		text: 'SYARIAH'
+	}]
 });
 $('#slc-jenis-pembiayaan').select2({
 	theme: 'material',

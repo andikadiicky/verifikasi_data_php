@@ -95,7 +95,7 @@
                         </div>
                         <div class="form-group" style="margin-bottom: unset;">
                             <input class="form-check-input" type="radio" name="radioTTDPicSatu" id="radio-ttd-picsatu" value="YA" disabled style="margin-left:unset">
-                            <label class="form-check-label" for="radioTTDPicSatu" style="margin-left: 1.25rem;">YANG BERTANDA TANGAN DI PERJANJIAN KONTRAK</label>
+                            <label class="form-check-label" for="radioTTDPicSatu" style="margin-left: 1.25rem;">Yang Bertanda Tangan Di Perjanjian Kontrak</label>
                         </div>
                         <div style="display: flex; justify-content:flex-end; right:0; bottom:0;">
                             <button class="btn btn-primary" id="btn-" disabled>Tambah</button>
@@ -106,7 +106,7 @@
                     <div class="col-lg-12">
                         <div class="use-bottom-border">
                             <h5>
-                                <span>INFORMASI ALAMAT</span>
+                                <span>Informasi Alamat</span>
                             </h5>
                         </div>
                     </div>
@@ -243,7 +243,7 @@
                         </div>
                         <div class="form-group" style="margin-bottom: unset;">
                             <input class="form-check-input" type="radio" name="radioTTDPicDua" id="radio-ttd-picdua" value="YA" disabled style="margin-left:unset">
-                            <label class="form-check-label" for="radioTTDPicDua" style="margin-left: 1.25rem;">YANG BERTANDA TANGAN DI PERJANJIAN KONTRAK</label>
+                            <label class="form-check-label" for="radioTTDPicDua" style="margin-left: 1.25rem;">Yang Bertanda Tangan Di Perjanjian Kontrak</label>
                         </div>
                         <div style="display: flex; justify-content:flex-end; right:0; bottom:0;">
                             <button class="btn btn-primary" id="btn-" disabled>Tambah</button>
@@ -254,7 +254,7 @@
                     <div class="col-lg-12">
                         <div class="use-bottom-border">
                             <h5>
-                                <span>INFORMASI ALAMAT</span>
+                                <span>Informasi Alamat</span>
                             </h5>
                         </div>
                     </div>
@@ -391,7 +391,7 @@
                         </div>
                         <div class="form-group" style="margin-bottom: unset;">
                             <input class="form-check-input" type="radio" name="radioTTDPicTiga" id="radio-ttd-pictiga" value="YA" disabled style="margin-left:unset">
-                            <label class="form-check-label" for="radioTTDPicTiga" style="margin-left: 1.25rem;">YANG BERTANDA TANGAN DI PERJANJIAN KONTRAK</label>
+                            <label class="form-check-label" for="radioTTDPicTiga" style="margin-left: 1.25rem;">Yang Bertanda Tangan Di Perjanjian Kontrak</label>
                         </div>
                         <div style="display: flex; justify-content:flex-end; right:0; bottom:0;">
                             <button class="btn btn-primary" id="btn-" disabled>Tambah</button>
@@ -402,7 +402,7 @@
                     <div class="col-lg-12">
                         <div class="use-bottom-border">
                             <h5>
-                                <span>INFORMASI ALAMAT</span>
+                                <span>Informasi Alamat</span>
                             </h5>
                         </div>
                     </div>
@@ -445,4 +445,7 @@
             </div>
         </div>
     </div>
+    <button type="button" class="btn btn-danger btn-circle btn-lg btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 </div>
