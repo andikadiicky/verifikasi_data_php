@@ -91,18 +91,10 @@ app.detailAplikasi = {
 
 }
 
-$("#slc-cabang").select2({
+$('#slc-cabang').select2({
 	theme: 'material',
-	placeholder: "PILIH CABANG",
+	placeholder: 'PILIH CABANG',
+	language: 'id',
 	allowClear: true,
-
-	processResults: function (response) {
-		return {
-			results: response.data.map(function (obj) {
-				return {
-
-				};
-			})
-		};
-	}
+	// data: dummy
 });
