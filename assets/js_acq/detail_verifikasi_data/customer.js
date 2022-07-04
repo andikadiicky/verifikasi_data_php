@@ -35,16 +35,25 @@ $("#slc-tipe-nasabah").on('change', function () {
 		$('#subtab-cust-company').hide();
 		$('#div-penjamin-pribadi').prop('hidden', false);
 		$('#div-penjamin-company').prop('hidden', true);
+		$('#survey-personal').prop('hidden', false);
+		$('#survey-company').prop('hidden', true);
+		$('#hasil-survey').prop('hidden', false);
 	} else if (x == 'COM') {
 		$('#subtab-cust-personal').hide();
 		$('#subtab-cust-company').show();
 		$('#div-penjamin-pribadi').prop('hidden', true);
 		$('#div-penjamin-company').prop('hidden', false);
+		$('#survey-personal').prop('hidden', true);
+		$('#survey-company').prop('hidden', false);
+		$('#hasil-survey').prop('hidden', false);
 	} else if (x == '') {
 		$('#subtab-cust-personal').hide();
 		$('#subtab-cust-company').hide();
 		$('#div-penjamin-pribadi').prop('hidden', true);
 		$('#div-penjamin-company').prop('hidden', true);
+		$('#survey-personal').prop('hidden', true);
+		$('#survey-company').prop('hidden', true);
+		$('#hasil-survey').prop('hidden', true);
 	}
 });
 

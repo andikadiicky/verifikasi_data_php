@@ -191,7 +191,7 @@
                             <select class="form-control select2bs4" style="width: 100%;" id="slc-bank-pendanaan" disabled>
                                 <option></option>
                             </select>
-                            <label for="slc-bank-pendanaan" class="form__label">BANK PENDANAAN</label>
+                            <label for="slc-bank-pendanaan" class="form__label">BANK PENDANAAN <span class="mandatory"> *</span></label>
                         </div>
                     </div>
                     <div class="form-group">
@@ -199,7 +199,7 @@
                             <select class="form-control select2bs4" style="width: 100%;" id="slc-sumber-dana-bayar-dp" disabled>
                                 <option></option>
                             </select>
-                            <label for="slc-sumber-dana-bayar-dp" class="form__label">SUMBER DANA PEMBAYARAN DP</label>
+                            <label for="slc-sumber-dana-bayar-dp" class="form__label">SUMBER DANA PEMBAYARAN DP <span class="mandatory"> *</span></label>
                         </div>
                     </div>
                     <div class="form-group">
@@ -207,7 +207,7 @@
                             <select class="form-control select2bs4" style="width: 100%;" id="slc-cara-bayar-angs" disabled>
                                 <option></option>
                             </select>
-                            <label for="slc-cara-bayar-angs" class="form__label">CARA BAYAR ANGSURAN</label>
+                            <label for="slc-cara-bayar-angs" class="form__label">CARA BAYAR ANGSURAN <span class="mandatory"> *</span></label>
                         </div>
                     </div>
                     <div class="form-group">
@@ -223,11 +223,11 @@
                             <select class="form-control select2bs4" style="width: 100%;" id="slc-pencairan-dana" disabled>
                                 <option></option>
                             </select>
-                            <label for="slc-pencairan-dana" class="form__label">PENCAIRAN DANA</label>
+                            <label for="slc-pencairan-dana" class="form__label">PENCAIRAN DANA <span class="mandatory"> *</span></label>
                         </div>
                     </div>
 
-                    <div class="use-bottom-border" style="margin-top: 5px;">
+                    <div class="use-bottom-border">
                         <H5>
                             <span>Auto Debet</span>
                         </H5>
@@ -243,17 +243,17 @@
                     <div class="form-group">
                         <div class="form__group field">
                             <input type="text" class="form__field inp-digit" id="inp-acc-no-autodebet" placeholder="ACCOUNT NO" disabled>
-                            <label for="inp-acc-no-autodebet" class="form__label">ACCOUNT NO</label>
+                            <label for="inp-acc-no-autodebet" class="form__label">ACCOUNT NO <span class="mandatory"> *</span></label>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="form__group field">
                             <input type="text" class="form__field inp-digit" id="inp-acc-name-autodebet" placeholder="ACCOUNT NAME" disabled>
-                            <label for="inp-acc-name-autodebet" class="form__label">ACCOUNT NAME</label>
+                            <label for="inp-acc-name-autodebet" class="form__label">ACCOUNT NAME <span class="mandatory"> *</span></label>
                         </div>
                     </div>
 
-                    <div class="use-bottom-border" style="margin-top: 5px;">
+                    <div class="use-bottom-border">
                         <H5>
                             <span>Pencairan Langsung</span>
                         </H5>
@@ -277,7 +277,7 @@
                         </div>
                     </div>
 
-                    <div class="use-bottom-border" style="margin-top: 5px;">
+                    <div class="use-bottom-border">
                         <h5>
                             <span>Refinancing</span>
                         </h5>
@@ -417,12 +417,12 @@
                         <!-- dummy data table -->
                         <tbody>
                             <tr>
-                                <td>dummy</td>
-                                <td>dummy</td>
-                                <td>dummy</td>
-                                <td>dummy</td>
-                                <td>dummy</td>
-                                <td>dummy</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                             </tr>
                         </tbody>
                         <!-- dummy data table -->
@@ -431,7 +431,7 @@
             </div>
 
             <div id="info-Internal-sales">
-                <div class="use-bottom-border">
+                <div class="use-bottom-border add-margin-top">
                     <h5>
                         <span>Informasi Internal Sales</span>
                     </h5>
@@ -452,13 +452,13 @@
                         <!-- dummy data table -->
                         <tbody>
                             <tr>
-                                <td>dummy</td>
-                                <td>dummy</td>
-                                <td>dummy</td>
-                                <td>dummy</td>
-                                <td>dummy</td>
-                                <td>dummy</td>
-                                <td>dummy</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                             </tr>
                         </tbody>
                         <!-- dummy data table -->
@@ -466,6 +466,10 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="add-margin-top" style="display: block;">
+        <button type="button" class="btn btn-primary" id="btn-confirm-tab-">Saya Sudah Membaca Tab Ini</button>
     </div>
     <button type="button" class="btn btn-danger btn-circle btn-lg btn-back-to-top">
         <i class="fas fa-arrow-up"></i>

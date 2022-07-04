@@ -11,9 +11,8 @@
                             </div>
                         </div>
                         <div class="form__group field">
-                            <select class="form-control select2bs4" style="width: 100%;" id="slc-tipe-nasabah-docrec">
-                                <option value="PER">PER - PERSONAL</option>
-                                <option value="COM">COM - COMPANY</option>
+                            <select class="form-control select2bs4" style="width: 100%;" id="slc-tipe-nasabah-docrec" disabled>
+                                <option></option>
                             </select>
                             <label for="slc-tipe-nasabah" class="form__label">TIPE NASABAH <span class="mandatory"> *</span></label>
                         </div>
@@ -42,7 +41,7 @@
                         <div class="col-md-6">
                             <div class="form-group">
                                 <div class="form__group field">
-                                    <input id="inp-tgl-terima-doc-docrec" type="input" class="form__field datetimepicker-input tanggal inp-tanggal" data-toggle="datetimepicker">
+                                    <input id="inp-tgl-terima-doc-docrec" type="input" class="form__field datetimepicker-input tanggal inp-tanggal" data-toggle="datetimepicker" disabled>
                                     <label for="inp-tgl-terima-doc-docrec" class="form__label"><i class="far fa-calendar-alt"></i> TANGGAL PENERIMAAN DOKUMEN <span class="mandatory"> *</span></label>
                                 </div>
                             </div>
@@ -88,7 +87,7 @@
                             <td></td>
                             <td></td>
                             <td></td>
-                            <td><select class="form-control select2bs4" style="width: 100%;" id="slc-doc-list-action">
+                            <td><select class="form-control select2bs4" style="width: 100%;" id="slc-doc-list-action" disabled>
                                     <option selected disabled>APPROVE</option>
                                 </select>
                             </td>
@@ -105,6 +104,10 @@
                     <!-- END TABLE -->
                 </div>
             </div>
+        </div>
+
+        <div class="add-margin-top" style="display: block;">
+            <button type="button" class="btn btn-primary" id="btn-confirm-tab-">Saya Sudah Membaca Tab Ini</button>
         </div>
     </div>
 </div>

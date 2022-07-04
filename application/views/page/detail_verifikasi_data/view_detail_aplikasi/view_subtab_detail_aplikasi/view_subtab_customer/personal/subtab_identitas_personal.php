@@ -278,17 +278,17 @@
                         <!-- dummy data table -->
                         <tbody>
                             <tr>
-                                <td>dummy</td>
-                                <td>dummy</td>
-                                <td>dummy</td>
-                                <td>dummy</td>
-                                <td>dummy</td>
-                                <td>dummy</td>
-                                <td>dummy</td>
-                                <td>dummy</td>
-                                <td>dummy</td>
-                                <td>dummy</td>
-                                <td>dummy</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td style="text-align: center"><a type='button' class='fas fa-pen fa-red' id=""></a></td>
                             </tr>
                         </tbody>
@@ -319,9 +319,9 @@
                         <!-- dummy data table -->
                         <tbody>
                             <tr>
-                                <td>dummy</td>
-                                <td>dummy</td>
-                                <td>dummy</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td style="text-align: center"><a type='button' class='fas fa-pen fa-red' id=""></a></td>
                             </tr>
                         </tbody>
@@ -352,9 +352,9 @@
                         <!-- dummy data table -->
                         <tbody>
                             <tr>
-                                <td>dummy</td>
-                                <td>dummy</td>
-                                <td>dummy</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td style="text-align: center"><a type='button' class='fas fa-pen fa-red' id=""></a></td>
                             </tr>
                         </tbody>
@@ -386,10 +386,10 @@
                         <!-- dummy data table -->
                         <tbody>
                             <tr>
-                                <td>dummy</td>
-                                <td>dummy</td>
-                                <td>dummy</td>
-                                <td>dummy</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td style="text-align: center"><a type='button' class='fas fa-pen fa-red' id=""></a></td>
                             </tr>
                         </tbody>
@@ -399,6 +399,10 @@
             </div>
 
         </div>
+    </div>
+
+    <div class="add-margin-top" style="display: block;">
+        <button type="button" class="btn btn-primary" id="btn-confirm-tab-">Saya Sudah Membaca Tab Ini</button>
     </div>
     <button type="button" class="btn btn-danger btn-circle btn-lg btn-back-to-top">
         <i class="fas fa-arrow-up"></i>

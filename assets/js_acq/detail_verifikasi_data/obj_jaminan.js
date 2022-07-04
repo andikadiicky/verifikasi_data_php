@@ -61,3 +61,81 @@ app.objekJaminan = {
 	})
 
 }
+
+$('#slc-jenis-kendaraan').select2({
+	theme: 'material',
+	placeholder: 'PILIH',
+	language: 'id',
+	allowClear: true,
+	// data: dummy
+});
+$('#slc-merk-kendaraan').select2({
+	theme: 'material',
+	placeholder: 'PILIH',
+	language: 'id',
+	allowClear: true,
+	// data: dummy
+});
+$('#slc-model-kendaraan').select2({
+	theme: 'material',
+	placeholder: 'PILIH',
+	language: 'id',
+	allowClear: true,
+	// data: dummy
+});
+$('#slc-ketersediaan-unit').select2({
+	theme: 'material',
+	placeholder: 'PILIH',
+	language: 'id',
+	allowClear: true,
+	// data: dummy
+});
+$('#slc-warna-plat').select2({
+	theme: 'material',
+	placeholder: 'PILIH',
+	language: 'id',
+	allowClear: true,
+	// data: dummy
+});
+$('#slc-built-atpm').select2({
+	theme: 'material',
+	placeholder: 'PILIH',
+	language: 'id',
+	allowClear: true,
+	// data: dummy
+});
+$('#slc-id-bpkb').select2({
+	theme: 'material',
+	placeholder: 'PILIH',
+	language: 'id',
+	allowClear: true,
+	// data: dummy
+});
+$('#slc-hub-dengan-nasabah').select2({
+	theme: 'material',
+	placeholder: 'PILIH',
+	language: 'id',
+	allowClear: true,
+	// data: dummy
+});
+$('#slc-jenis-supplier').select2({
+	theme: 'material',
+	placeholder: 'PILIH',
+	language: 'id',
+	allowClear: true,
+	// data: dummy
+});
+$('#slc-penyedia-unit').select2({
+	theme: 'material',
+	placeholder: 'PILIH',
+	language: 'id',
+	allowClear: true,
+	// data: dummy
+});
+$('#slc-paket-rekening').select2({
+	theme: 'material',
+	placeholder: 'PILIH',
+	language: 'id',
+	allowClear: true,
+	// data: dummy
+});

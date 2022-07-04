@@ -100,6 +100,34 @@ app.strukturKredit = {
 
 }
 
+$('#slc-addb-addm').select2({
+	theme: 'material',
+	placeholder: 'PILIH',
+	language: 'id',
+	allowClear: true,
+	// data: dummy
+});
+$('#slc-periode-proporsional').select2({
+	theme: 'material',
+	placeholder: 'PILIH',
+	language: 'id',
+	allowClear: true,
+	// data: dummy
+});
+$('#slc-marketing-prog').select2({
+	theme: 'material',
+	placeholder: 'PILIH',
+	language: 'id',
+	allowClear: true,
+	// data: dummy
+});
+$('#slc-marketing-sch').select2({
+	theme: 'material',
+	placeholder: 'PILIH',
+	language: 'id',
+	allowClear: true,
+	// data: dummy
+});
 $('#slc-tipe-pembayaran-angs').select2({
 	theme: 'material',
 	placeholder: 'PILIH',
@@ -130,4 +158,74 @@ $('#slc-tipe-pembayaran-angs').select2({
 		id: '08',
 		text: 'STEPPING'
 	}]
+});
+$('#slc-periode-holiday').select2({
+	theme: 'material',
+	placeholder: 'PILIH',
+	language: 'id',
+	allowClear: true,
+	// data: dummy
+});
+$('#slc-periode-gp').select2({
+	theme: 'material',
+	placeholder: 'PILIH',
+	language: 'id',
+	allowClear: true,
+	// data: dummy
+});
+$('#slc-periode-balloon').select2({
+	theme: 'material',
+	placeholder: 'PILIH',
+	language: 'id',
+	allowClear: true,
+	// data: dummy
+});
+$('#slc-res-type').select2({
+	theme: 'material',
+	placeholder: 'PILIH',
+	language: 'id',
+	allowClear: true,
+	// data: dummy
+});
+$('#slc-perusahaan-asuransi').select2({
+	theme: 'material',
+	placeholder: 'PILIH',
+	language: 'id',
+	allowClear: true,
+	// data: dummy
+});
+$('#slc-jenis-asuransi').select2({
+	theme: 'material',
+	placeholder: 'PILIH',
+	language: 'id',
+	allowClear: true,
+	// data: dummy
+});
+$('#slc-wil-asuransi').select2({
+	theme: 'material',
+	placeholder: 'PILIH',
+	language: 'id',
+	allowClear: true,
+	// data: dummy
+});
+$('#slc-liability').select2({
+	theme: 'material',
+	placeholder: 'PILIH',
+	language: 'id',
+	allowClear: true,
+	// data: dummy
+});
+$('#slc-jenis-asuransi-tambahan').select2({
+	theme: 'material',
+	placeholder: 'PILIH',
+	language: 'id',
+	allowClear: true,
+	// data: dummy
+});
+$('#slc-perusahaan-asuransi-tambahan').select2({
+	theme: 'material',
+	placeholder: 'PILIH',
+	language: 'id',
+	allowClear: true,
+	// data: dummy
 });

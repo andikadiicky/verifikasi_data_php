@@ -80,6 +80,10 @@
             </div>
         </div>
     </div>
+
+    <div class="add-margin-top" style="display: block;">
+        <button type="button" class="btn btn-primary" id="btn-confirm-tab-">Saya Sudah Membaca Tab Ini</button>
+    </div>
     <button type="button" class="btn btn-danger btn-circle btn-lg btn-back-to-top">
         <i class="fas fa-arrow-up"></i>
     </button>

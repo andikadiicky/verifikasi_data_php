@@ -5,7 +5,7 @@
                 <select class="form-control select2bs4" style="width: 100%;" id="slc-jenis-kendaraan" disabled>
                     <option></option>
                 </select>
-                <label for="slc-" class="form__label">JENIS KENDARAAN</label>
+                <label for="slc-" class="form__label">JENIS KENDARAAN <span class="mandatory"> *</span></label>
             </div>
         </div>
         <div class="form-group">
@@ -13,7 +13,7 @@
                 <select class="form-control select2bs4" style="width: 100%;" id="slc-merk-kendaraan" disabled>
                     <option></option>
                 </select>
-                <label for="slc-" class="form__label">MERK KENDARAAN</label>
+                <label for="slc-" class="form__label">MERK KENDARAAN <span class="mandatory"> *</span></label>
             </div>
         </div>
         <div class="form-group">
@@ -21,7 +21,7 @@
                 <select class="form-control select2bs4" style="width: 100%;" id="slc-model-kendaraan" disabled>
                     <option></option>
                 </select>
-                <label for="slc-" class="form__label">MODEL KENDARAAN</label>
+                <label for="slc-" class="form__label">MODEL KENDARAAN <span class="mandatory"> *</span></label>
             </div>
         </div>
         <div class="form-group">
@@ -53,7 +53,7 @@
         <div class="form-group">
             <div class="form__group field">
                 <input type="text" class="form__field" id="inp-thn-pembuatan" placeholder="TAHUN PEMBUATAN" disabled>
-                <label for="inp-" class="form__label">TAHUN PEMBUATAN</label>
+                <label for="inp-" class="form__label">TAHUN PEMBUATAN <span class="mandatory"> *</span></label>
             </div>
         </div>
         <div class="form-group">
@@ -84,7 +84,7 @@
         </div>
         <div class="form-group">
             <div class="form__group field">
-                <input type="text" class="form__field" id="inp-ersen-upping" placeholder="% UPPING" disabled>
+                <input type="text" class="form__field" id="inp-persen-upping" placeholder="% UPPING" disabled>
                 <label for="inp-" class="form__label">% UPPING</label>
             </div>
         </div>
@@ -110,7 +110,7 @@
                 </label>
                 <label class="form__label">BPKB DIPROSES BBN</label>
             </div>
-            
+
             <div class="form__group field">
                 <select class="form-control select2bs4" style="width: 100%;" id="slc-warna-plat" disabled>
                     <option></option>
@@ -149,7 +149,7 @@
                         BPKB Tidak Sama Dengan Nasabah
                     </label>
                 </div>
-                <label class="form__label">JENIS IDENTITAS BPKB</label>
+                <label class="form__label">JENIS IDENTITAS BPKB <span class="mandatory"> *</span></label>
             </div>
         </div>
         <div class="form-group">
@@ -157,13 +157,13 @@
                 <select class="form-control select2bs4" style="width: 100%;" id="slc-id-bpkb" disabled>
                     <option></option>
                 </select>
-                <label for="slc-" class="form__label">ID BPKB</label>
+                <label for="slc-" class="form__label">ID BPKB <span class="mandatory"> *</span></label>
             </div>
         </div>
         <div class="form-group">
             <div class="form__group field">
                 <input type="text" class="form__field" id="inp-no-identitas" placeholder="NO IDENTITAS" disabled>
-                <label for="inp-" class="form__label">NO IDENTITAS</label>
+                <label for="inp-" class="form__label">NO IDENTITAS <span class="mandatory"> *</span></label>
             </div>
         </div>
         <div class="form-group">
@@ -171,7 +171,7 @@
                 <select class="form-control select2bs4" style="width: 100%;" id="slc-hub-dengan-nasabah" disabled>
                     <option></option>
                 </select>
-                <label for="slc-" class="form__label">HUBUNGAN DENGAN NASABAH</label>
+                <label for="slc-" class="form__label">HUBUNGAN DENGAN NASABAH <span class="mandatory"> *</span></label>
             </div>
         </div>
         <div class="form-group">
@@ -211,7 +211,7 @@
             </div>
         </div>
 
-        <div class="use-bottom-border" style="margin-top: 5px;">
+        <div class="use-bottom-border">
             <h5>
                 <span>Informasi Supplier</span>
             </h5>
@@ -221,7 +221,7 @@
                 <select class="form-control select2bs4" style="width: 100%;" id="slc-jenis-supplier" disabled>
                     <option></option>
                 </select>
-                <label for="slc-" class="form__label">JENIS SUPPLIER</label>
+                <label for="slc-" class="form__label">JENIS SUPPLIER <span class="mandatory"> *</span></label>
             </div>
         </div>
         <div class="form-group">
@@ -229,7 +229,7 @@
                 <select class="form-control select2bs4" style="width: 100%;" id="slc-penyedia-unit" disabled>
                     <option></option>
                 </select>
-                <label for="slc-" class="form__label">PENYEDIA UNIT</label>
+                <label for="slc-" class="form__label">PENYEDIA UNIT <span class="mandatory"> *</span></label>
             </div>
         </div>
         <div class="form-group">
@@ -237,7 +237,7 @@
                 <select class="form-control select2bs4" style="width: 100%;" id="slc-paket-rekening" disabled>
                     <option></option>
                 </select>
-                <label for="slc-" class="form__label">PAKET REKENING</label>
+                <label for="slc-" class="form__label">PAKET REKENING <span class="mandatory"> *</span></label>
             </div>
         </div>
         <div class="form-group">
@@ -288,7 +288,7 @@
     </div>
 </div>
 <div id="objek-karoseri">
-    <div class="use-bottom-border" style="margin-top: 5px;">
+    <div class="use-bottom-border">
         <h5>
             <span>Objek Karoseri</span>
         </h5>
@@ -325,7 +325,7 @@
     </div>
 </div>
 
-<div class="use-bottom-border" style="margin-top: 5px;">
+<div class="use-bottom-border">
     <h5>
         <span>Rebooking UKJ Top</span>
     </h5>

@@ -63,7 +63,7 @@
 }
 
 .mandatory {
-	font-size: 12px;
+	font-size: 12pt;
 	color: red;
 }
 
@@ -445,6 +445,8 @@ h4 {
 hr {
 	border: none;
 	border-bottom: 3px solid #ced4da;
+	margin-top: unset !important;
+	margin-bottom: unset !important;
 }
 
 .header-form {

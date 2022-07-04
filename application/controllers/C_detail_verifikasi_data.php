@@ -25,6 +25,8 @@ class C_detail_verifikasi_data extends CI_Controller {
 			'detail_verifikasi_data/obj_jaminan',
 			'detail_verifikasi_data/struktur_kredit',
 			'detail_verifikasi_data/penjamin',
+			'detail_verifikasi_data/survey',
+			'detail_verifikasi_data/document_upload',
 			'detail_verifikasi_data/doc_received',
 			'detail_verifikasi_data/verif_data_awal',
 			'detail_verifikasi_data/verif_telepon',

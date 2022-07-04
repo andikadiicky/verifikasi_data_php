@@ -291,7 +291,7 @@ textarea {
 }
 
 .mandatory {
-	font-size: 12px;
+	font-size: 12pt;
 	color: red;
 }
 
@@ -673,8 +673,8 @@ h4 {
 hr {
 	border: none;
 	border-bottom: 3px solid #ced4da;
-	margin-top: unset;
-	margin-bottom: unset;
+	margin-top: unset !important;
+	margin-bottom: unset !important;
 }
 
 .use-bottom-border h4 {
@@ -682,6 +682,7 @@ hr {
 	height: 33px;
 	border-bottom: 3px solid #ced4da;
 }
+
 .use-bottom-border h5 {
 	position: relative;
 	height: 33px;
@@ -718,4 +719,8 @@ hr {
 	bottom: 20px;
 	right: 20px;
 	display: none;
+}
+
+.add-margin-top {
+	margin-top: 1.5%;
 }

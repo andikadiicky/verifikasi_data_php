@@ -36,7 +36,7 @@
             </div>
             <hr>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 add-margin-top">
                     <div class="use-bottom-border">
                         <h5>
                             <span>Pekerjaan Nasabah</span>
@@ -181,7 +181,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-md-6 add-margin-top">
                     <div class="use-bottom-border">
                         <h5>
                             <span>Pekerjaan Pasangan</span>
@@ -299,6 +299,10 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="add-margin-top" style="display: block;">
+        <button type="button" class="btn btn-primary" id="btn-confirm-tab-">Saya Sudah Membaca Tab Ini</button>
     </div>
     <button type="button" class="btn btn-danger btn-circle btn-lg btn-back-to-top">
         <i class="fas fa-arrow-up"></i>

@@ -25,7 +25,7 @@
               <div class="col-md-6">
                 <div class="form-group">
                   <div class="form__group field">
-                    <input type="input" class="form__field" placeholder="KODE CABANG" id="inp-kode-cabang" disabled />
+                    <input type="input" class="form__field" placeholder="KODE CABANG" id="inp-kode-cabang" disabled/>
                     <label for="inp-kode-cabang" class="form__label">KODE CABANG</label>
                   </div>
                 </div>
@@ -52,19 +52,19 @@
                 </div>
                 <div class="form-group">
                   <div class="form__group field">
-                    <input type="input" class="form__field" placeholder="KODE DEALER" id="inp-kode-dealer" disabled />
+                    <input type="input" class="form__field" placeholder="KODE DEALER" id="inp-kode-dealer" disabled/>
                     <label for="inp-kode-dealer" class="form__label">KODE DEALER</label>
                   </div>
                 </div>
                 <div class="form-group">
                   <div class="form__group field">
-                    <input type="input" class="form__field" placeholder="NO KONTRAK" id="inp-no-kontrak" disabled />
+                    <input type="input" class="form__field" placeholder="NO KONTRAK" id="inp-no-kontrak" disabled/>
                     <label for="inp-no-kontrak" class="form__label">NO KONTRAK</label>
                   </div>
                 </div>
                 <div class="form-group">
                   <div class="form__group field">
-                    <input type="input" class="form__field" placeholder="NO RECEIVE" id="inp-no-receive" disabled />
+                    <input type="input" class="form__field" placeholder="NO RECEIVE" id="inp-no-receive" disabled/>
                     <label for="inp-no-receive" class="form__label">NO RECEIVE</label>
                   </div>
                 </div>
@@ -77,7 +77,7 @@
               <div class="col-md-6">
                 <div class="form-group">
                   <div class="form__group field">
-                    <input type="input" class="form__field" placeholder="TANGGAL" id="inp-tanggal" disabled />
+                    <input type="input" class="form__field" placeholder="TANGGAL" id="inp-tanggal" disabled/>
                     <label for="inp-tanggal" class="form__label">TANGGAL</label>
                   </div>
                 </div>

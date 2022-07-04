@@ -7,7 +7,7 @@
                 </h4>
             </div>
             <div id="div-penjamin-pribadi" hidden>
-                <div class="use-bottom-border" style="margin-top: 5px;">
+                <div class="use-bottom-border add-margin-top">
                     <h5>
                         <span>Informasi Penjamin Pribadi</span>
                     </h5>
@@ -32,10 +32,14 @@
                     </tbody>
                     <!-- dummy data table -->
                 </table>
+
+                <div class="add-margin-top" style="display: block;">
+                    <button type="button" class="btn btn-primary" id="btn-confirm-tab-">Saya Sudah Membaca Tab Ini</button>
+                </div>
             </div>
 
             <div id="div-penjamin-company" hidden>
-                <div class="use-bottom-border" style="margin-top: 5px;">
+                <div class="use-bottom-border add-margin-top">
                     <h5>
                         <span>Informasi Penjamin Perusahaan</span>
                     </h5>
@@ -60,6 +64,10 @@
                     </tbody>
                     <!-- dummy data table -->
                 </table>
+
+                <div class="add-margin-top" style="display: block;">
+                    <button type="button" class="btn btn-primary" id="btn-confirm-tab-">Saya Sudah Membaca Tab Ini</button>
+                </div>
             </div>
         </div>
     </div>

@@ -302,7 +302,7 @@
 </div>
 
 <div id="div-info-biaya">
-    <div class="use-bottom-border" style="margin-top: 5px;">
+    <div class="use-bottom-border">
         <h5>
             <span>Informasi Biaya</span>
         </h5>
@@ -352,7 +352,7 @@
             </div>
             <hr>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 add-margin-top">
             <h5>Admin</h5>
             <div class="form-group">
                 <div class="form__group field">
@@ -394,7 +394,7 @@
             </div>
 
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 add-margin-top">
             <h5>Fiducia</h5>
             <div class="form-group">
                 <div class="form__group field">
@@ -414,7 +414,7 @@
 </div>
 
 <div id="div-asuransi-kerugian">
-    <div class="use-bottom-border" style="margin-top: 5px;">
+    <div class="use-bottom-border">
         <h5>
             <span>Asuransi Kerugian</span>
         </h5>
@@ -426,7 +426,7 @@
                     <select class="form-control select2bs4" style="width: 100%;" id="slc-perusahaan-asuransi" disabled>
                         <option></option>
                     </select>
-                    <label for="slc-" class="form__label">PERUSAHAAN ASURANSI</label>
+                    <label for="slc-" class="form__label">PERUSAHAAN ASURANSI <span class="mandatory"> *</span></label>
                 </div>
             </div>
             <div class="form-group">
@@ -434,7 +434,7 @@
                     <select class="form-control select2bs4" style="width: 100%;" id="slc-jenis-asuransi" disabled>
                         <option></option>
                     </select>
-                    <label for="slc-" class="form__label">JENIS ASURANSI</label>
+                    <label for="slc-" class="form__label">JENIS ASURANSI <span class="mandatory"> *</span></label>
                 </div>
             </div>
             <div class="form-group">
@@ -442,7 +442,7 @@
                     <select class="form-control select2bs4" style="width: 100%;" id="slc-wil-asuransi" disabled>
                         <option></option>
                     </select>
-                    <label for="slc-" class="form__label">WILAYAH ASURANSI</label>
+                    <label for="slc-" class="form__label">WILAYAH ASURANSI <span class="mandatory"> *</span></label>
                 </div>
             </div>
             <div class="form-group">
@@ -527,7 +527,7 @@
 </div>
 
 <div id="div-perluasan-jaminan">
-    <div class="use-bottom-border" style="margin-top: 5px;">
+    <div class="use-bottom-border">
         <h5>
             <span>Perluasan Jaminan</span>
         </h5>
@@ -536,27 +536,27 @@
         <div class="col-md-6">
             <div class="form-group">
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="check-srcc" value="">
+                    <input class="form-check-input" type="checkbox" id="check-srcc" value="" disabled>
                     <label class="form-check-label" for="">SRCC</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="check-ts" value="">
+                    <input class="form-check-input" type="checkbox" id="check-ts" value="" disabled>
                     <label class="form-check-label" for="">TS</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="check-flh" value="">
+                    <input class="form-check-input" type="checkbox" id="check-flh" value="" disabled>
                     <label class="form-check-label" for="">FLH</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="check-eqts" value="">
+                    <input class="form-check-input" type="checkbox" id="check-eqts" value="" disabled>
                     <label class="form-check-label" for="">EQTS</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="check-tjh" value="">
+                    <input class="form-check-input" type="checkbox" id="check-tjh" value="" disabled>
                     <label class="form-check-label" for="">TJH</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="check-pa-driver" value="">
+                    <input class="form-check-input" type="checkbox" id="check-pa-driver" value="" disabled>
                     <label class="form-check-label" for="">PA DRIVER</label>
                 </div>
             </div>
@@ -564,7 +564,7 @@
         <div class="col-md-6">
             <div class="form-group">
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="check-limit-liability" value="">
+                    <input class="form-check-input" type="checkbox" id="check-limit-liability" value="" disabled>
                     <label class="form-check-label col-sm-8">Limit Of Liability:</label>
 
                     <select class="form-control select2bs4 col-sm-4" style="width: 100%;" id="slc-liability" disabled>
@@ -577,7 +577,7 @@
 </div>
 
 <div id="div-asuransi-tambahan">
-    <div class="use-bottom-border" style="margin-top: 5px;">
+    <div class="use-bottom-border">
         <h5>
             <span>Asuransi Tambahan</span>
         </h5>
@@ -589,7 +589,7 @@
                     <select class="form-control select2bs4" style="width: 100%;" id="slc-jenis-asuransi-tambahan" disabled>
                         <option></option>
                     </select>
-                    <label for="slc-" class="form__label">JENIS ASURANSI</label>
+                    <label for="slc-" class="form__label">JENIS ASURANSI <span class="mandatory"> *</span></label>
                 </div>
             </div>
             <div class="form-group">
@@ -597,7 +597,7 @@
                     <select class="form-control select2bs4" style="width: 100%;" id="slc-perusahaan-asuransi-tambahan" disabled>
                         <option></option>
                     </select>
-                    <label for="slc-" class="form__label">PERUSAHAAN ASURANSI</label>
+                    <label for="slc-" class="form__label">PERUSAHAAN ASURANSI <span class="mandatory"> *</span></label>
                 </div>
             </div>
             <div class="form-group">
@@ -655,7 +655,7 @@
 </div>
 
 <div id="div-info-angsuran">
-    <div class="use-bottom-border" style="margin-top: 5px;">
+    <div class="use-bottom-border">
         <h5>
             <span>Informasi Angsuran</span>
         </h5>

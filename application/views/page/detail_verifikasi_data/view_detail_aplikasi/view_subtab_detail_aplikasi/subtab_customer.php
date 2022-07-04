@@ -1,7 +1,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-6" id="card-form">
-            <div class="card">
+            <div class="card" style="margin-top: 10px;">
                 <div class="card-header">
                     <div class="form-group">
                         <div class="form__group field">
@@ -19,19 +19,19 @@
                     </div>
                     <div class="form-group">
                         <div class="form__group field">
-                            <input type="input" class="form__field" placeholder="HASIL SCREENING" id="inp-hasil-screening" disabled />
+                            <input type="input" class="form__field" placeholder="HASIL SCREENING" id="inp-hasil-screening" disabled/>
                             <label for="inp-hasil-screening" class="form__label">HASIL SCREENING</label>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="form__group field">
-                            <input type="input" class="form__field" placeholder="TANGGAL ORDER" id="inp-tgl-order" disabled />
+                            <input type="input" class="form__field" placeholder="TANGGAL ORDER" id="inp-tgl-order" disabled/>
                             <label for="inp-tgl-order" class="form__label">TANGGAL ORDER</label>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="form__group field">
-                            <input type="input" class="form__field" placeholder="NO ORDER" id="inp-no-order" disabled />
+                            <input type="input" class="form__field" placeholder="NO ORDER" id="inp-no-order" disabled/>
                             <label for="inp-no-order" class="form__label">NO ORDER</label>
                         </div>
                     </div>
@@ -41,7 +41,8 @@
     </div>
 </div>
 <hr>
-<div id="subtab-cust-personal" style="display: none;">
+
+<div id="subtab-cust-personal" style="display: none; margin-top:5px">
     <ul class="nav nav-tabs col-md-12" role="tablist">
         <li class="nav-item" role="presentation">
             <a class="nav-link active" id="tab-identitas" data-toggle="tab" href="#identitas" role="tab" aria-controls="identitas">Identitas</a>
@@ -66,7 +67,7 @@
     </div>
 </div>
 
-<div id="subtab-cust-company" style="display: none;">
+<div id="subtab-cust-company" style="display: none; margin-top:5px">
     <ul class="nav nav-tabs col-md-12" role="tablist">
         <li class="nav-item" role="presentation">
             <a class="nav-link active" id="tab-identitas-comp" data-toggle="tab" href="#identitas-comp" role="tab" aria-controls="identitas-comp">Identitas</a>

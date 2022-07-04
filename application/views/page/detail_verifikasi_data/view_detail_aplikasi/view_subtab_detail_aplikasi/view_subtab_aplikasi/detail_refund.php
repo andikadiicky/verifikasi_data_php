@@ -1,4 +1,4 @@
-<div class="use-bottom-border" style="margin-top: 5px;">
+<div class="use-bottom-border add-margin-top">
     <h5>
         <span>Dari MUF</span>
     </h5>
@@ -94,4 +94,8 @@
             </div>
         </div>
     </div>
+</div>
+
+<div class="add-margin-top" style="display: block;">
+    <button type="button" class="btn btn-primary" id="btn-confirm-tab-">Saya Sudah Membaca Tab Ini</button>
 </div>
