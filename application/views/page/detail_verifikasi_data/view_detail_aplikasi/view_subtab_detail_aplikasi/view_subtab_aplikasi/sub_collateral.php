@@ -11,4 +11,7 @@
 
         </div>
     </div>
+    <div class="add-margin-top" style="display: block;">
+        <button type="button" class="btn btn-primary" id="confirm-tab-collateral">Saya Sudah Membaca Tab Ini</button>
+    </div>
 </div>

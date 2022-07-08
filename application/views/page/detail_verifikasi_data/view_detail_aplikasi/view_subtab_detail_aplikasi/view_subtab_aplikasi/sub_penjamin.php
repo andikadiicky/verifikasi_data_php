@@ -34,7 +34,7 @@
                 </table>
 
                 <div class="add-margin-top" style="display: block;">
-                    <button type="button" class="btn btn-primary" id="btn-confirm-tab-">Saya Sudah Membaca Tab Ini</button>
+                    <button type="button" class="btn btn-primary" id="confirm-tab-penjamin-per">Saya Sudah Membaca Tab Ini</button>
                 </div>
             </div>
 
@@ -66,7 +66,7 @@
                 </table>
 
                 <div class="add-margin-top" style="display: block;">
-                    <button type="button" class="btn btn-primary" id="btn-confirm-tab-">Saya Sudah Membaca Tab Ini</button>
+                    <button type="button" class="btn btn-primary" id="confirm-tab-penjamin-comp">Saya Sudah Membaca Tab Ini</button>
                 </div>
             </div>
         </div>

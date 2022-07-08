@@ -104,7 +104,7 @@
                     <!-- END TABLE -->
 
                     <div class="add-margin-top" style="display: block;">
-                        <button type="button" class="btn btn-primary" id="btn-confirm-tab-">Saya Sudah Membaca Tab Ini</button>
+                        <button type="button" class="btn btn-primary" id="confirm-tab-docrec">Saya Sudah Membaca Tab Ini</button>
                     </div>
                 </div>
             </div>

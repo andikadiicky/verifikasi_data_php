@@ -12,9 +12,9 @@ $(document).ready(function () {
 
 	// When the user clicks on the button, scroll to the top of the document
 	$('.btn-back-to-top').click(function () {
-		$('body,html').animate({
+		$('html, body').animate({
 			scrollTop: 0
-		}, 400);
+		}, 'slow');
 		return false;
 	});
 });

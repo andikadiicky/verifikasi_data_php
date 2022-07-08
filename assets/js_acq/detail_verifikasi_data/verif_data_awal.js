@@ -1,5 +1,5 @@
 $(document).ready(function () {
-	app.verifikasiTelepon.init();
+	app.verifikasiDataAwal.init();
 });
 
 $(document).on('select2:open', () => {
@@ -7,7 +7,7 @@ $(document).on('select2:open', () => {
 	$('.select2-search__field').css("text-transform", "uppercase");
 });
 
-app.verifikasiTelepon = {
+app.verifikasiDataAwal = {
 	controller: 'c_detail_verifikasi_data/',
 	// api: '',
 	elm: {},
@@ -16,7 +16,6 @@ app.verifikasiTelepon = {
 	init: function () {
 		var file = this;
 		var tbl_verif_data_awal = file.tableVerifDataAwal;
-		var tbl_vertel = file.tableVertel;
 
 		//Responsive DataTable
 		$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
@@ -28,16 +27,6 @@ app.verifikasiTelepon = {
 	},
 
 	tableVerifDataAwal: $('#tbl-verif-data-awal').DataTable({
-		"destroy": true,
-		"paging": false,
-		"lengthChange": false,
-		"searching": false,
-		"ordering": true,
-		"info": false,
-		"autoWidth": false,
-	}),
-
-	tableVertel: $('#tbl-verifikasi-telepon').DataTable({
 		"destroy": true,
 		"paging": false,
 		"lengthChange": false,
