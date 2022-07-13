@@ -126,7 +126,10 @@
                 <div class="col-md-6">
                     <div class="form-group">
                         <div class="form__group field">
-                            <input type="text" class="form__field inp-alphabetical" id="inp-email-perusahaan" placeholder="EMAIL" disabled>
+                            <div class="input-group flex-nowrap">
+                                <input type="text" class="form__field inp-alphabetical" id="inp-email-perusahaan" placeholder="EMAIL" disabled>
+                                <span class="input-group-text" style="border: unset; border-radius: unset; border-bottom: 2px solid #9b9b9b;"><i class="fas fa-envelope-open"></i></span>
+                            </div>
                             <label for="inp-email-perusahaan" class="form__label">EMAIL</label>
                         </div>
                     </div>
