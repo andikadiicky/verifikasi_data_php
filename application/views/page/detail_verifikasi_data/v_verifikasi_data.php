@@ -18,7 +18,7 @@
                             </select>
                         </div>
                         <div class="col-sm-2">
-                            <input type="input" class="form__field" placeholder="" id="inp-" disabled/>
+                            <input type="text" class="form__field" placeholder="" id="inp-" disabled/>
                         </div>
                     </div>
                 </div>

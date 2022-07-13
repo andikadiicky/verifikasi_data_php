@@ -302,7 +302,7 @@
 </div>
 
 <div id="div-info-biaya">
-    <div class="use-bottom-border">
+    <div class="use-bottom-border add-margin-top">
         <h5>
             <span>Informasi Biaya</span>
         </h5>

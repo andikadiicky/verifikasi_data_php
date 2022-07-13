@@ -138,8 +138,11 @@
                     </div>
                     <div class="form-group">
                         <div class="form__group field">
-                            <input id="inp-tgl-ijin-usaha" type="text" class="form__field datetimepicker-input tanggal" data-toggle="datetimepicker" disabled>
-                            <label for="inp-tgl-ijin-usaha" class="form__label"><i class="fa fa-calendar"></i> TANGGAL IJIN USAHA/SIUP DITERBITKAN <span class="mandatory"> *</span></label>
+                            <div class="input-group flex-nowrap">
+                                <input id="inp-tgl-ijin-usaha" type="text" class="form__field datetimepicker-input tanggal" data-toggle="datetimepicker" disabled>
+                                <span class="input-group-text" style="border: unset; border-radius: unset; border-bottom: 2px solid #9b9b9b;"><i class="far fa-calendar-alt"></i></span>
+                            </div>
+                            <label for="inp-tgl-ijin-usaha" class="form__label">TANGGAL IJIN USAHA/SIUP DITERBITKAN <span class="mandatory"> *</span></label>
                         </div>
                     </div>
                     <div class="form-group">
@@ -150,8 +153,11 @@
                     </div>
                     <div class="form-group">
                         <div class="form__group field">
-                            <input id="inp-tgl-terbit-nib" type="text" class="form__field datetimepicker-input tanggal" data-toggle="datetimepicker" disabled>
-                            <label for="inp-tgl-terbit-nib" class="form__label"><i class="fa fa-calendar"></i> TANGGAL NIB/TDP DITERBITKAN <span class="mandatory"> *</span></label>
+                            <div class="input-group flex-nowrap">
+                                <input id="inp-tgl-terbit-nib" type="text" class="form__field datetimepicker-input tanggal" data-toggle="datetimepicker" disabled>
+                                <span class="input-group-text" style="border: unset; border-radius: unset; border-bottom: 2px solid #9b9b9b;"><i class="far fa-calendar-alt"></i></span>
+                            </div>
+                            <label for="inp-tgl-terbit-nib" class="form__label">TANGGAL NIB/TDP DITERBITKAN <span class="mandatory"> *</span></label>
                         </div>
                     </div>
                     <div class="form-group">
@@ -162,8 +168,11 @@
                     </div>
                     <div class="form-group">
                         <div class="form__group field">
-                            <input id="inp-tgl-akta-pendirian" type="text" class="form__field datetimepicker-input tanggal" data-toggle="datetimepicker" disabled>
-                            <label for="inp-tgl-akta-pendirian" class="form__label"><i class="fa fa-calendar"></i> TANGGAL AKTA PENDIRIAN</label>
+                            <div class="input-group flex-nowrap">
+                                <input id="inp-tgl-akta-pendirian" type="text" class="form__field datetimepicker-input tanggal" data-toggle="datetimepicker" disabled>
+                                <span class="input-group-text" style="border: unset; border-radius: unset; border-bottom: 2px solid #9b9b9b;"><i class="far fa-calendar-alt"></i></span>
+                            </div>
+                            <label for="inp-tgl-akta-pendirian" class="form__label">TANGGAL AKTA PENDIRIAN</label>
                         </div>
                     </div>
                     <div class="form-group">
@@ -180,8 +189,11 @@
                     </div>
                     <div class="form-group">
                         <div class="form__group field">
-                            <input id="inp-tgl-akta-perubahan-terakhir" type="text" class="form__field datetimepicker-input tanggal" data-toggle="datetimepicker" disabled>
-                            <label for="inp-tgl-akta-perubahan-terakhir" class="form__label"><i class="fa fa-calendar"></i> TANGGAL AKTA PERUBAHAN TERAKHIR</label>
+                            <div class="input-group flex-nowrap">
+                                <input id="inp-tgl-akta-perubahan-terakhir" type="text" class="form__field datetimepicker-input tanggal" data-toggle="datetimepicker" disabled>
+                                <span class="input-group-text" style="border: unset; border-radius: unset; border-bottom: 2px solid #9b9b9b;"><i class="far fa-calendar-alt"></i></span>
+                            </div>
+                            <label for="inp-tgl-akta-perubahan-terakhir" class="form__label">TANGGAL AKTA PERUBAHAN TERAKHIR</label>
                         </div>
                     </div>
                     <div class="form-group">

@@ -25,7 +25,7 @@
               <div class="col-md-6">
                 <div class="form-group">
                   <div class="form__group field">
-                    <input type="input" class="form__field" placeholder="KODE CABANG" id="inp-kode-cabang" disabled/>
+                    <input type="text" class="form__field" placeholder="KODE CABANG" id="inp-kode-cabang" disabled/>
                     <label for="inp-kode-cabang" class="form__label">KODE CABANG</label>
                   </div>
                 </div>
@@ -52,19 +52,19 @@
                 </div>
                 <div class="form-group">
                   <div class="form__group field">
-                    <input type="input" class="form__field" placeholder="KODE DEALER" id="inp-kode-dealer" disabled/>
+                    <input type="text" class="form__field" placeholder="KODE DEALER" id="inp-kode-dealer" disabled/>
                     <label for="inp-kode-dealer" class="form__label">KODE DEALER</label>
                   </div>
                 </div>
                 <div class="form-group">
                   <div class="form__group field">
-                    <input type="input" class="form__field" placeholder="NO KONTRAK" id="inp-no-kontrak" disabled/>
+                    <input type="text" class="form__field" placeholder="NO KONTRAK" id="inp-no-kontrak" disabled/>
                     <label for="inp-no-kontrak" class="form__label">NO KONTRAK</label>
                   </div>
                 </div>
                 <div class="form-group">
                   <div class="form__group field">
-                    <input type="input" class="form__field" placeholder="NO RECEIVE" id="inp-no-receive" disabled/>
+                    <input type="text" class="form__field" placeholder="NO RECEIVE" id="inp-no-receive" disabled/>
                     <label for="inp-no-receive" class="form__label">NO RECEIVE</label>
                   </div>
                 </div>
@@ -77,14 +77,17 @@
               <div class="col-md-6">
                 <div class="form-group">
                   <div class="form__group field">
-                    <input type="input" class="form__field" placeholder="TANGGAL" id="inp-tanggal" disabled/>
+                    <input type="text" class="form__field" placeholder="TANGGAL" id="inp-tanggal" disabled/>
                     <label for="inp-tanggal" class="form__label">TANGGAL</label>
                   </div>
                 </div>
                 <div class="form-group">
                   <div class="form__group field">
-                    <input id="inp-tgl-terima-doc" type="input" class="form__field datetimepicker-input tanggal inp-tanggal" data-toggle="datetimepicker">
-                    <label for="inp-tgl-terima-doc" class="form__label"><i class="far fa-calendar-alt"></i> TANGGAL PENERIMAAN DOKUMEN <span class="mandatory"> *</span></label>
+                    <div class="input-group flex-nowrap">
+                      <input id="inp-tgl-terima-doc" type="text" class="form__field datetimepicker-input tanggal inp-tanggal" data-toggle="datetimepicker">
+                      <span class="input-group-text" style="border: unset; border-radius: unset; border-bottom: 2px solid #9b9b9b;"><i class="far fa-calendar-alt"></i></span>
+                    </div>
+                    <label for="inp-tgl-terima-doc" class="form__label">TANGGAL PENERIMAAN DOKUMEN <span class="mandatory"> *</span></label>
                   </div>
                 </div>
                 <div class="form-group">

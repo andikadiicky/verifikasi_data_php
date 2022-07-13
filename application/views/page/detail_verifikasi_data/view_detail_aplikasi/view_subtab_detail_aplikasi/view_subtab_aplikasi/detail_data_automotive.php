@@ -128,8 +128,11 @@
         </div>
         <div class="form-group">
             <div class="form__group field">
-                <input id="inp-tgl-expire-stnk" type="text" class="form__field datetimepicker-input tanggal" data-toggle="datetimepicker" disabled>
-                <label for="inp-" class="form__label"><i class="fa fa-calendar"></i> TANGGAL EXPIRE STNK</label>
+                <div class="input-group flex-nowrap">
+                    <input id="inp-tgl-expire-stnk" type="text" class="form__field datetimepicker-input tanggal inp-tanggal" data-toggle="datetimepicker" disabled>
+                    <span class="input-group-text" style="border: unset; border-radius: unset; border-bottom: 2px solid #9b9b9b;"><i class="far fa-calendar-alt"></i></span>
+                </div>
+                <label for="" class="form__label">TANGGAL EXPIRE STNK</label>
             </div>
         </div>
     </div>

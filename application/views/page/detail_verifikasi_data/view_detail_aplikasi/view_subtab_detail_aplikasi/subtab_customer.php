@@ -5,7 +5,7 @@
                 <div class="card-header">
                     <div class="form-group">
                         <div class="form__group field">
-                            <input type="input" class="form__field" placeholder="OBLIGOR ID" id="inp-obligor-id" disabled value="1234567891027" />
+                            <input type="text" class="form__field" placeholder="OBLIGOR ID" id="inp-obligor-id" disabled/>
                             <label for="inp-obligor-id" class="form__label">OBLIGOR ID</label>
                         </div>
                     </div>
@@ -19,19 +19,22 @@
                     </div>
                     <div class="form-group">
                         <div class="form__group field">
-                            <input type="input" class="form__field" placeholder="HASIL SCREENING" id="inp-hasil-screening" disabled/>
+                            <input type="text" class="form__field" placeholder="HASIL SCREENING" id="inp-hasil-screening" disabled/>
                             <label for="inp-hasil-screening" class="form__label">HASIL SCREENING</label>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="form__group field">
-                            <input type="input" class="form__field" placeholder="TANGGAL ORDER" id="inp-tgl-order" disabled/>
+                            <div class="input-group flex-nowrap">
+                                <input id="inp-tgl-order" type="text" class="form__field datetimepicker-input tanggal inp-tanggal" data-toggle="datetimepicker" disabled>
+                                <span class="input-group-text" style="border: unset; border-radius: unset; border-bottom: 2px solid #9b9b9b;"><i class="far fa-calendar-alt"></i></span>
+                            </div>
                             <label for="inp-tgl-order" class="form__label">TANGGAL ORDER</label>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="form__group field">
-                            <input type="input" class="form__field" placeholder="NO ORDER" id="inp-no-order" disabled/>
+                            <input type="text" class="form__field" placeholder="NO ORDER" id="inp-no-order" disabled/>
                             <label for="inp-no-order" class="form__label">NO ORDER</label>
                         </div>
                     </div>

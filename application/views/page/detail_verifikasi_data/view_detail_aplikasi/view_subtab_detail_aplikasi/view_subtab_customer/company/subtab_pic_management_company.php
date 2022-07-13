@@ -25,14 +25,17 @@
                         </div>
                         <div class="form-group">
                             <div class="form__group field">
-                                <input type="text" class="form__field inp-alphabetical" id="inp-nama-lengkap-pic-satu" placeholder="NAMA LENGKAP SESUAI IDENTITAS" disabled>
-                                <label for="inp-nama-lengkap-pic-satu" class="form__label">NAMA LENGKAP SESUAI IDENTITAS</label>
+                                <input type="text" class="form__field inp-alphabetical" id="inp-nama-lengkap-picsatu" placeholder="NAMA LENGKAP SESUAI IDENTITAS" disabled>
+                                <label for="inp-nama-lengkap-picsatu" class="form__label">NAMA LENGKAP SESUAI IDENTITAS</label>
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="form__group field">
-                                <input id="inp-tgl-lahir-picsatu" type="text" class="form__field datetimepicker-input tanggal" data-toggle="datetimepicker" disabled>
-                                <label for="inp-tgl-lahir-picsatu" class="form__label"><i class="fa fa-calendar"></i> TANGGAL LAHIR SESUAI IDENTITAS</label>
+                                <div class="input-group flex-nowrap">
+                                    <input id="inp-tgl-lahir-picsatu" type="text" class="form__field datetimepicker-input tanggal" data-toggle="datetimepicker" disabled>
+                                    <span class="input-group-text" style="border: unset; border-radius: unset; border-bottom: 2px solid #9b9b9b;"><i class="far fa-calendar-alt"></i></span>
+                                </div>
+                                <label for="inp-tgl-lahir-picsatu" class="form__label">TANGGAL LAHIR SESUAI IDENTITAS</label>
                             </div>
                         </div>
                         <div class="form-group">
@@ -77,13 +80,19 @@
                         </div>
                         <div class="form-group">
                             <div class="form__group field">
-                                <input type="text" class="form__field inp-digit" id="inp-no-hp-picsatu" placeholder="NO HANDPHONE" disabled>
+                                <div class="input-group flex-nowrap">
+                                    <input type="text" class="form__field inp-digit" id="inp-no-hp-picsatu" placeholder="NO HANDPHONE" disabled>
+                                    <span class="input-group-text" style="border: unset; border-radius: unset; border-bottom: 2px solid #9b9b9b;"><i class="fas fa-mobile-alt"></i></span>
+                                </div>
                                 <label for="inp-no-hp-picsatu" class="form__label">NO HANDPHONE</label>
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="form__group field">
-                                <input type="text" class="form__field inp-alphabetical" id="inp-email-picsatu" placeholder="EMAIL" disabled>
+                                <div class="input-group flex-nowrap">
+                                    <input type="text" class="form__field inp-alphabetical" id="inp-email-picsatu" placeholder="EMAIL" disabled>
+                                    <span class="input-group-text" style="border: unset; border-radius: unset; border-bottom: 2px solid #9b9b9b;"><i class="fas fa-envelope-open"></i></span>
+                                </div>
                                 <label for="inp-email-picsatu" class="form__label">EMAIL</label>
                             </div>
                         </div>
@@ -102,7 +111,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="alamat-pic-satu">
+                <div id="alamat-picsatu">
                     <div class="col-lg-12">
                         <div class="use-bottom-border">
                             <h5>
@@ -173,14 +182,17 @@
                         </div>
                         <div class="form-group">
                             <div class="form__group field">
-                                <input type="text" class="form__field inp-alphabetical" id="inp-nama-lengkap-pic-satu" placeholder="NAMA LENGKAP SESUAI IDENTITAS" disabled>
-                                <label for="inp-nama-lengkap-pic-satu" class="form__label">NAMA LENGKAP SESUAI IDENTITAS</label>
+                                <input type="text" class="form__field inp-alphabetical" id="inp-nama-lengkap-picdua" placeholder="NAMA LENGKAP SESUAI IDENTITAS" disabled>
+                                <label for="inp-nama-lengkap-picdua" class="form__label">NAMA LENGKAP SESUAI IDENTITAS</label>
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="form__group field">
-                                <input id="inp-tgl-lahir-picdua" type="text" class="form__field datetimepicker-input tanggal" data-toggle="datetimepicker" disabled>
-                                <label for="inp-tgl-lahir-picdua" class="form__label"><i class="fa fa-calendar"></i> TANGGAL LAHIR SESUAI IDENTITAS</label>
+                                <div class="input-group flex-nowrap">
+                                    <input id="inp-tgl-lahir-picdua" type="text" class="form__field datetimepicker-input tanggal" data-toggle="datetimepicker" disabled>
+                                    <span class="input-group-text" style="border: unset; border-radius: unset; border-bottom: 2px solid #9b9b9b;"><i class="far fa-calendar-alt"></i></span>
+                                </div>
+                                <label for="inp-tgl-lahir-picdua" class="form__label">TANGGAL LAHIR SESUAI IDENTITAS</label>
                             </div>
                         </div>
                         <div class="form-group">
@@ -225,13 +237,19 @@
                         </div>
                         <div class="form-group">
                             <div class="form__group field">
-                                <input type="text" class="form__field inp-digit" id="inp-no-hp-picdua" placeholder="NO HANDPHONE" disabled>
+                                <div class="input-group flex-nowrap">
+                                    <input type="text" class="form__field inp-digit" id="inp-no-hp-picdua" placeholder="NO HANDPHONE" disabled>
+                                    <span class="input-group-text" style="border: unset; border-radius: unset; border-bottom: 2px solid #9b9b9b;"><i class="fas fa-mobile-alt"></i></span>
+                                </div>
                                 <label for="inp-no-hp-picdua" class="form__label">NO HANDPHONE</label>
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="form__group field">
-                                <input type="text" class="form__field inp-alphabetical" id="inp-email-picdua" placeholder="EMAIL" disabled>
+                                <div class="input-group flex-nowrap">
+                                    <input type="text" class="form__field inp-alphabetical" id="inp-email-picdua" placeholder="EMAIL" disabled>
+                                    <span class="input-group-text" style="border: unset; border-radius: unset; border-bottom: 2px solid #9b9b9b;"><i class="fas fa-envelope-open"></i></span>
+                                </div>
                                 <label for="inp-email-picdua" class="form__label">EMAIL</label>
                             </div>
                         </div>
@@ -250,7 +268,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="alamat-pic-dua">
+                <div id="alamat-picdua">
                     <div class="col-lg-12">
                         <div class="use-bottom-border">
                             <h5>
@@ -321,14 +339,17 @@
                         </div>
                         <div class="form-group">
                             <div class="form__group field">
-                                <input type="text" class="form__field inp-alphabetical" id="inp-nama-lengkap-pic-satu" placeholder="NAMA LENGKAP SESUAI IDENTITAS" disabled>
-                                <label for="inp-nama-lengkap-pic-satu" class="form__label">NAMA LENGKAP SESUAI IDENTITAS</label>
+                                <input type="text" class="form__field inp-alphabetical" id="inp-nama-lengkap-pictiga" placeholder="NAMA LENGKAP SESUAI IDENTITAS" disabled>
+                                <label for="inp-nama-lengkap-pictiga" class="form__label">NAMA LENGKAP SESUAI IDENTITAS</label>
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="form__group field">
-                                <input id="inp-tgl-lahir-pictiga" type="text" class="form__field datetimepicker-input tanggal" data-toggle="datetimepicker" disabled>
-                                <label for="inp-tgl-lahir-pictiga" class="form__label"><i class="fa fa-calendar"></i> TANGGAL LAHIR SESUAI IDENTITAS</label>
+                                <div class="input-group flex-nowrap">
+                                    <input id="inp-tgl-lahir-pictiga" type="text" class="form__field datetimepicker-input tanggal" data-toggle="datetimepicker" disabled>
+                                    <span class="input-group-text" style="border: unset; border-radius: unset; border-bottom: 2px solid #9b9b9b;"><i class="far fa-calendar-alt"></i></span>
+                                </div>
+                                <label for="inp-tgl-lahir-pictiga" class="form__label">TANGGAL LAHIR SESUAI IDENTITAS</label>
                             </div>
                         </div>
                         <div class="form-group">
@@ -373,14 +394,20 @@
                         </div>
                         <div class="form-group">
                             <div class="form__group field">
-                                <input type="text" class="form__field inp-digit" id="inp-no-hp-pictiga" placeholder="NO HANDPHONE" disabled>
-                                <label for="inp-no-hp-pictiga" class="form__label">NO HANDPHONE</label>
+                                <div class="input-group flex-nowrap">
+                                    <input type="text" class="form__field inp-digit" id="inp-no-hp-pic-tiga" placeholder="NO HANDPHONE" disabled>
+                                    <span class="input-group-text" style="border: unset; border-radius: unset; border-bottom: 2px solid #9b9b9b;"><i class="fas fa-mobile-alt"></i></span>
+                                </div>
+                                <label for="inp-no-hp-pic-tiga" class="form__label">NO HANDPHONE</label>
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="form__group field">
-                                <input type="text" class="form__field inp-alphabetical" id="inp-email-pictiga" placeholder="EMAIL" disabled>
-                                <label for="inp-email-pictiga" class="form__label">EMAIL</label>
+                                <div class="input-group flex-nowrap">
+                                    <input type="text" class="form__field inp-alphabetical" id="inp-email-pic-tiga" placeholder="EMAIL" disabled>
+                                    <span class="input-group-text" style="border: unset; border-radius: unset; border-bottom: 2px solid #9b9b9b;"><i class="fas fa-envelope-open"></i></span>
+                                </div>
+                                <label for="inp-email-pic-tiga" class="form__label">EMAIL</label>
                             </div>
                         </div>
                         <div class="form-group">
@@ -398,7 +425,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="alamat-pic-tiga">
+                <div id="alamat-pictiga">
                     <div class="col-lg-12">
                         <div class="use-bottom-border">
                             <h5>

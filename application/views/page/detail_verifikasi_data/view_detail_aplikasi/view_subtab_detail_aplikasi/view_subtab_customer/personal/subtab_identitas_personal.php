@@ -41,8 +41,11 @@
                         <div class="row">
                             <div class="col-md-5">
                                 <div class="form__group field">
-                                    <input id="" type="text" class="form__field datetimepicker-input tanggal" data-toggle="datetimepicker" disabled>
-                                    <label for="" class="form__label"><i class="fa fa-calendar"></i> TANGGAL IDENTITAS <span class="mandatory"> *</span></label>
+                                    <div class="input-group flex-nowrap">
+                                        <input id="inp-start-tgl-identitas" type="text" class="form__field datetimepicker-input tanggal inp-tanggal" data-toggle="datetimepicker">
+                                        <span class="input-group-text" style="border: unset; border-radius: unset; border-bottom: 2px solid #9b9b9b;"><i class="far fa-calendar-alt"></i></span>
+                                    </div>
+                                    <label for="" class="form__label">TANGGAL IDENTITAS <span class="mandatory"> *</span></label>
                                 </div>
                             </div>
                             <div class="col-md-2">
@@ -54,7 +57,10 @@
                             </div>
                             <div class="col-md-5">
                                 <div class="form__group field">
-                                    <input id="" type="text" class="form__field datetimepicker-input tanggal" data-toggle="datetimepicker" disabled>
+                                    <div class="input-group flex-nowrap">
+                                        <input id="inp-until-tgl-identitas" type="text" class="form__field datetimepicker-input tanggal inp-tanggal" data-toggle="datetimepicker" disabled>
+                                        <span class="input-group-text" style="border: unset; border-radius: unset; border-bottom: 2px solid #9b9b9b;"><i class="far fa-calendar-alt"></i></span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -110,20 +116,29 @@
                     </div>
                     <div class="form-group">
                         <div class="form__group field">
-                            <input type="text" class="form__field" placeholder="EMAIL" id="inp-email" disabled>
-                            <label for="inp-email" class="form__label">EMAIL</label>
+                            <div class="input-group flex-nowrap">
+                                <input id="inp-email-personal" type="text" class="form__field" disabled>
+                                <span class="input-group-text" style="border: unset; border-radius: unset; border-bottom: 2px solid #9b9b9b;"><i class="fas fa-envelope-open"></i></span>
+                            </div>
+                            <label for="inp-email-personal" class="form__label">EMAIL</label>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="form__group field">
-                            <input type="text" class="form__field inp-digit" placeholder="NO HANDPHONE 1" id="inp-no-hp-1" disabled>
+                            <div class="input-group flex-nowrap">
+                                <input id="inp-no-hp-1" type="text" class="form__field inp-digit" disabled>
+                                <span class="input-group-text" style="border: unset; border-radius: unset; border-bottom: 2px solid #9b9b9b;"><i class="fas fa-mobile-alt"></i></span>
+                            </div>
                             <label for="inp-no-hp-1" class="form__label">NO HANDPHONE 1 <span class="mandatory"> *</span></label>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="form__group field">
-                            <input type="text" class="form__field inp-digit" placeholder="NO HANDPHONE 2" id="inp-no-hp-2" disabled>
-                            <label for="inp-no-hp-1" class="form__label">NO HANDPHONE 2</label>
+                            <div class="input-group flex-nowrap">
+                                <input id="inp-no-hp-2" type="text" class="form__field inp-digit" disabled>
+                                <span class="input-group-text" style="border: unset; border-radius: unset; border-bottom: 2px solid #9b9b9b;"><i class="fas fa-mobile-alt"></i></span>
+                            </div>
+                            <label for="inp-no-hp-2" class="form__label">NO HANDPHONE 2 <span class="mandatory"> *</span></label>
                         </div>
                     </div>
                 </div>
@@ -197,7 +212,10 @@
                     </div>
                     <div class="form-group">
                         <div class="form__group field">
-                            <input type="text" class="form__field inp-digit" placeholder="NO HANDPHONE PASANGAN" id="inp-no-hp-pasangan" disabled>
+                            <div class="input-group flex-nowrap">
+                                <input id="inp-no-hp-pasangan" type="text" class="form__field inp-digit" disabled>
+                                <span class="input-group-text" style="border: unset; border-radius: unset; border-bottom: 2px solid #9b9b9b;"><i class="fas fa-mobile-alt"></i></span>
+                            </div>
                             <label for="inp-no-hp-pasangan" class="form__label">NO HANDPHONE PASANGAN <span class="mandatory"> *</span></label>
                         </div>
                     </div>
@@ -289,7 +307,7 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td style="text-align: center"><a type='button' class='fas fa-pen fa-red' id=""></a></td>
+                                <td></td>
                             </tr>
                         </tbody>
                         <!-- dummy data table -->
@@ -322,7 +340,7 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td style="text-align: center"><a type='button' class='fas fa-pen fa-red' id=""></a></td>
+                                <td></td>
                             </tr>
                         </tbody>
                         <!-- dummy data table -->
@@ -355,7 +373,7 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td style="text-align: center"><a type='button' class='fas fa-pen fa-red' id=""></a></td>
+                                <td></td>
                             </tr>
                         </tbody>
                         <!-- dummy data table -->
@@ -390,7 +408,7 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td style="text-align: center"><a type='button' class='fas fa-pen fa-red' id=""></a></td>
+                                <td></td>
                             </tr>
                         </tbody>
                         <!-- dummy data table -->

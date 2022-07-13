@@ -88,7 +88,7 @@
                     </div>
                     <div class="form-group" id="div-posisi-pekerjaan-karyawan">
                         <div class="form__group field">
-                            <select class="form-control select2bs4" style="width: 100%;" id="slc-posisi-pekerjaan">
+                            <select class="form-control select2bs4" style="width: 100%;" id="slc-posisi-pekerjaan" disabled>
                                 <option></option>
                             </select>
                             <label for="slc-posisi-pekerjaan" class="form__label">POSISI PEKERJAAN <span class="mandatory"> *</span></label>
@@ -96,7 +96,7 @@
                     </div>
                     <div class="form-group" id="div-atasan-langsung-karyawan">
                         <div class="form__group field">
-                            <input type="text" class="form__field inp-alphabetical" id="inp-atasan-langsung" placeholder="ATASAN LANGSUNG">
+                            <input type="text" class="form__field inp-alphabetical" id="inp-atasan-langsung" placeholder="ATASAN LANGSUNG" disabled>
                             <label for="inp-atasan-langsung" class="form__label">ATASAN LANGSUNG</label>
                         </div>
                     </div>
@@ -175,8 +175,12 @@
                     </div>
                     <div class="form-group">
                         <div class="form__group field">
-                            <input type="text" class="form__field inp-digit" id="inp-notelp-pekerjaan" placeholder="NO TELEPON TEMPAT BEKERJA" disabled>
-                            <label for="inp-notelp-pekerjaan" class="form__label">NO TELEPON TEMPAT BEKERJA</label>
+                            <div class="input-group flex-nowrap">
+                                <input id="inp-notelp-pekerjaan" type="text" class="form__field inp-digit" disabled>
+                                <span class="input-group-text" style="border: unset; border-radius: unset; border-bottom: 2px solid #9b9b9b;"><i class="fas fa-phone-alt"></i></span>
+                            </div>
+                            <label id="label-notelp-bekerja" class="form__label">NO TELEPON TEMPAT BEKERJA</label>
+                            <label id="label-notelp-usaha" class="form__label" style="display: none;">NO TELEPON TEMPAT USAHA</label>
                         </div>
                     </div>
                 </div>
@@ -292,8 +296,12 @@
                     </div>
                     <div class="form-group">
                         <div class="form__group field">
-                            <input type="text" class="form__field inp-digit" id="inp-notelp-pekerjaan-pasangan" placeholder="NO TELEPON TEMPAT BEKERJA" disabled>
-                            <label for="inp-notelp-pekerjaan-pasangan" class="form__label">NO TELEPON TEMPAT BEKERJA</label>
+                            <div class="input-group flex-nowrap">
+                                <input id="inp-notelp-pekerjaan-pasangan" type="text" class="form__field inp-digit" disabled>
+                                <span class="input-group-text" style="border: unset; border-radius: unset; border-bottom: 2px solid #9b9b9b;"><i class="fas fa-phone-alt"></i></span>
+                            </div>
+                            <label id="label-notelp-bekerja-pasangan" class="form__label">NO TELEPON TEMPAT BEKERJA</label>
+                            <label id="label-notelp-usaha-pasangan" class="form__label" style="display: none;">NO TELEPON TEMPAT USAHA</label>
                         </div>
                     </div>
                 </div>
