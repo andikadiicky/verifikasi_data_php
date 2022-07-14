@@ -42,7 +42,7 @@
                             <div class="col-md-5">
                                 <div class="form__group field">
                                     <div class="input-group flex-nowrap">
-                                        <input id="inp-start-tgl-identitas" type="text" class="form__field datetimepicker-input tanggal inp-tanggal" data-toggle="datetimepicker">
+                                        <input id="inp-start-tgl-identitas" type="text" class="form__field datetimepicker-input tanggal inp-tanggal" data-toggle="datetimepicker" disabled>
                                         <span class="input-group-text" style="border: unset; border-radius: unset; border-bottom: 2px solid #9b9b9b;"><i class="far fa-calendar-alt"></i></span>
                                     </div>
                                     <label for="" class="form__label">TANGGAL IDENTITAS <span class="mandatory"> *</span></label>
@@ -67,7 +67,7 @@
                     </div>
                     <div class="form-group">
                         <div class="form__group field">
-                            <select class="form-control select2bs4" style="width: 100%;" id="slc-agama">
+                            <select class="form-control select2bs4" style="width: 100%;" id="slc-agama" disabled>
                                 <option></option>
                             </select>
                             <label for="slc-agama" class="form__label">AGAMA</label>
